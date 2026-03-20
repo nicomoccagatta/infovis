@@ -183,20 +183,36 @@ a{
   opacity: 0.9;
 }
 
-.back{
-  display:inline-flex;
-  align-items:center;
-  gap:10px;
-  margin-bottom: 14px;
-  color: rgba(234,240,255,0.85);
+.back {
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(233, 238, 252, 0.88);
+  font-weight: 700;
+  text-decoration: none;
+  pointer-events: auto;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.22);
+  margin: 0 auto;
+  font-weight: 700;
 }
 
-.back:hover{
-  border-color: rgba(110, 168, 254, 0.35);
+.back:hover {
+  border-color: rgba(110, 168, 254, 0.45);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.back:focus-visible {
+  outline: 3px solid rgba(110, 168, 254, 0.45);
+  outline-offset: 3px;
 }
 
 .content h1{
