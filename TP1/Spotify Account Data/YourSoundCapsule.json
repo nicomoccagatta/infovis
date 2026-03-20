@@ -1,0 +1,460 @@
+{
+  "stats" : [ {
+    "date" : "2026-03-02",
+    "streamCount" : 0,
+    "secondsPlayed" : 0,
+    "topTracks" : [ {
+      "name" : "Where You Are",
+      "streamCount" : 6,
+      "secondsPlayed" : 1406
+    }, {
+      "name" : "Stephanie",
+      "streamCount" : 6,
+      "secondsPlayed" : 1129
+    }, {
+      "name" : "Jamaican (Bam Bam)",
+      "streamCount" : 6,
+      "secondsPlayed" : 712
+    }, {
+      "name" : "Edge of Desire",
+      "streamCount" : 5,
+      "secondsPlayed" : 670
+    }, {
+      "name" : "In the Moment - Adriatique Remix",
+      "streamCount" : 4,
+      "secondsPlayed" : 1000
+    }, {
+      "name" : "Verano En NY",
+      "streamCount" : 4,
+      "secondsPlayed" : 980
+    }, {
+      "name" : "Music is Better",
+      "streamCount" : 4,
+      "secondsPlayed" : 815
+    }, {
+      "name" : "Jamming - FISHER Rework",
+      "streamCount" : 4,
+      "secondsPlayed" : 805
+    }, {
+      "name" : "California Dreamin' (feat. High Jinx)",
+      "streamCount" : 4,
+      "secondsPlayed" : 785
+    }, {
+      "name" : "Relax My Eyes",
+      "streamCount" : 4,
+      "secondsPlayed" : 767
+    } ],
+    "topArtists" : [ {
+      "name" : "HUGEL",
+      "streamCount" : 49,
+      "secondsPlayed" : 8225
+    }, {
+      "name" : "RÜFÜS DU SOL",
+      "streamCount" : 34,
+      "secondsPlayed" : 7882
+    }, {
+      "name" : "FISHER",
+      "streamCount" : 39,
+      "secondsPlayed" : 6983
+    }, {
+      "name" : "Bad Bunny",
+      "streamCount" : 28,
+      "secondsPlayed" : 5744
+    }, {
+      "name" : "John Summit",
+      "streamCount" : 22,
+      "secondsPlayed" : 4706
+    }, {
+      "name" : "Swedish House Mafia",
+      "streamCount" : 20,
+      "secondsPlayed" : 4483
+    }, {
+      "name" : "David Guetta",
+      "streamCount" : 24,
+      "secondsPlayed" : 3980
+    }, {
+      "name" : "Cloonee",
+      "streamCount" : 18,
+      "secondsPlayed" : 3240
+    }, {
+      "name" : "Mau P",
+      "streamCount" : 17,
+      "secondsPlayed" : 3309
+    }, {
+      "name" : "Mr. Belt & Wezol",
+      "streamCount" : 17,
+      "secondsPlayed" : 3039
+    } ],
+    "topGenres" : [ ]
+  }, {
+    "date" : "2026-02-23",
+    "streamCount" : 0,
+    "secondsPlayed" : 0,
+    "topTracks" : [ {
+      "name" : "DtMF",
+      "streamCount" : 4,
+      "secondsPlayed" : 902
+    }, {
+      "name" : "J Balvin: Bzrp Music Sessions, Vol. 62/66",
+      "streamCount" : 4,
+      "secondsPlayed" : 752
+    }, {
+      "name" : "LADRON",
+      "streamCount" : 4,
+      "secondsPlayed" : 423
+    }, {
+      "name" : "I Adore You (feat. Daecolm)",
+      "streamCount" : 3,
+      "secondsPlayed" : 642
+    }, {
+      "name" : "TENGO UN FEELING",
+      "streamCount" : 3,
+      "secondsPlayed" : 588
+    }, {
+      "name" : "LA VILLA",
+      "streamCount" : 3,
+      "secondsPlayed" : 554
+    }, {
+      "name" : "Tu jardín con enanitos",
+      "streamCount" : 3,
+      "secondsPlayed" : 494
+    }, {
+      "name" : "Soy Favela",
+      "streamCount" : 3,
+      "secondsPlayed" : 482
+    }, {
+      "name" : "Jamaican (Bam Bam)",
+      "streamCount" : 3,
+      "secondsPlayed" : 468
+    }, {
+      "name" : "TU MISTERIOSO ALGUIEN (CUARTETO) (feat. Miranda!)",
+      "streamCount" : 3,
+      "secondsPlayed" : 461
+    } ],
+    "topArtists" : [ {
+      "name" : "Bad Bunny",
+      "streamCount" : 50,
+      "secondsPlayed" : 10694
+    }, {
+      "name" : "HUGEL",
+      "streamCount" : 42,
+      "secondsPlayed" : 6977
+    }, {
+      "name" : "La T y La M",
+      "streamCount" : 20,
+      "secondsPlayed" : 3368
+    }, {
+      "name" : "Cumbia rocha",
+      "streamCount" : 17,
+      "secondsPlayed" : 5119
+    }, {
+      "name" : "Un Poco de Ruido",
+      "streamCount" : 19,
+      "secondsPlayed" : 2287
+    }, {
+      "name" : "Pinky SD",
+      "streamCount" : 19,
+      "secondsPlayed" : 2287
+    }, {
+      "name" : "Luck Ra",
+      "streamCount" : 9,
+      "secondsPlayed" : 1195
+    }, {
+      "name" : "The La Planta",
+      "streamCount" : 13,
+      "secondsPlayed" : 2240
+    }, {
+      "name" : "Max Carra",
+      "streamCount" : 10,
+      "secondsPlayed" : 1565
+    }, {
+      "name" : "Bizarrap",
+      "streamCount" : 7,
+      "secondsPlayed" : 1147
+    } ],
+    "topGenres" : [ ]
+  }, {
+    "date" : "2026-02-16",
+    "streamCount" : 0,
+    "secondsPlayed" : 0,
+    "topTracks" : [ {
+      "name" : "Heaven Takes You Home (feat. Connie Constance)",
+      "streamCount" : 6,
+      "secondsPlayed" : 1070
+    }, {
+      "name" : "You Little Beauty",
+      "streamCount" : 6,
+      "secondsPlayed" : 1031
+    }, {
+      "name" : "LA CANCIÓN",
+      "streamCount" : 5,
+      "secondsPlayed" : 1212
+    }, {
+      "name" : "You Were Right",
+      "streamCount" : 5,
+      "secondsPlayed" : 1195
+    }, {
+      "name" : "Music is Better",
+      "streamCount" : 5,
+      "secondsPlayed" : 1180
+    }, {
+      "name" : "Where You Are",
+      "streamCount" : 5,
+      "secondsPlayed" : 1177
+    }, {
+      "name" : "Beso (Fruta Fresca) - MichaelBM Remix",
+      "streamCount" : 5,
+      "secondsPlayed" : 1105
+    }, {
+      "name" : "Tu No Vive Asi (feat. Mambo Kingz & DJ Luian)",
+      "streamCount" : 5,
+      "secondsPlayed" : 1057
+    }, {
+      "name" : "Weak",
+      "streamCount" : 5,
+      "secondsPlayed" : 960
+    }, {
+      "name" : "This Rhythm (feat. RAHH)",
+      "streamCount" : 5,
+      "secondsPlayed" : 946
+    } ],
+    "topArtists" : [ {
+      "name" : "Bad Bunny",
+      "streamCount" : 111,
+      "secondsPlayed" : 22956
+    }, {
+      "name" : "FISHER",
+      "streamCount" : 33,
+      "secondsPlayed" : 6098
+    }, {
+      "name" : "Arcángel",
+      "streamCount" : 32,
+      "secondsPlayed" : 6766
+    }, {
+      "name" : "RÜFÜS DU SOL",
+      "streamCount" : 21,
+      "secondsPlayed" : 5360
+    }, {
+      "name" : "HUGEL",
+      "streamCount" : 24,
+      "secondsPlayed" : 3966
+    }, {
+      "name" : "J Balvin",
+      "streamCount" : 21,
+      "secondsPlayed" : 4696
+    }, {
+      "name" : "Myke Towers",
+      "streamCount" : 14,
+      "secondsPlayed" : 3042
+    }, {
+      "name" : "John Summit",
+      "streamCount" : 10,
+      "secondsPlayed" : 2053
+    }, {
+      "name" : "ANOTR",
+      "streamCount" : 10,
+      "secondsPlayed" : 2048
+    }, {
+      "name" : "oskar med k",
+      "streamCount" : 10,
+      "secondsPlayed" : 1414
+    } ],
+    "topGenres" : [ ]
+  } ],
+  "highlights" : [ {
+    "date" : "2026-03-08",
+    "highlightType" : "ON_REPEAT",
+    "onRepeatHighlight" : {
+      "entity" : "Jamaican (Bam Bam)",
+      "streamCount" : 6
+    }
+  }, {
+    "date" : "2026-03-01",
+    "highlightType" : "YOU_STAND_OUT",
+    "youStandOutHighlight" : {
+      "entity" : "Bad Bunny",
+      "country" : "AR",
+      "secondsPlayed" : 10694,
+      "marketAvgSecondsPlayed" : 2491.0952
+    }
+  }, {
+    "date" : "2026-02-22",
+    "highlightType" : "FIRST_TO_DISCOVER",
+    "firstToDiscoverHighlight" : {
+      "entity" : "Rain",
+      "country" : "AR",
+      "position" : 9772
+    }
+  }, {
+    "date" : "2026-02-15",
+    "highlightType" : "FANS_LIKE_YOU",
+    "fansLikeYouHighlight" : {
+      "entity" : "Puñaladas",
+      "country" : "AR",
+      "position" : 15,
+      "previousPosition" : 14,
+      "numberOfListeners" : 516733
+    }
+  }, {
+    "date" : "2026-02-08",
+    "highlightType" : "MILESTONE",
+    "multiEntityMilestoneHighlight" : {
+      "entities" : [ "Bad Bunny", "Arcángel", "J Balvin", "Tu No Vive Asi (feat. Mambo Kingz & DJ Luian)", "<3", "RONCA FREESTYLE", "Diles", "Innerbloom", "Llegamos A La Disco" ],
+      "milestoneListeningSeconds" : 176062
+    }
+  }, {
+    "date" : "2026-02-01",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "Max Carra",
+      "dayStreaks" : 4
+    }
+  }, {
+    "date" : "2026-01-25",
+    "highlightType" : "UNLIKE_COMBINATION",
+    "unlikeCombinationHighlight" : {
+      "firstEntity" : "Believe Me",
+      "secondEntity" : "La Flor / Bachata Rosa / Cantarte al Oído"
+    }
+  }, {
+    "date" : "2026-01-18",
+    "highlightType" : "PROPORTION_LISTENING_ENTITY",
+    "proportionListeningHighlight" : {
+      "entity" : "House early 2026",
+      "listeningPercentage" : 31.101057393866068
+    }
+  }, {
+    "date" : "2026-01-11",
+    "highlightType" : "ON_REPEAT",
+    "onRepeatHighlight" : {
+      "entity" : "NADIE SABE",
+      "streamCount" : 19
+    }
+  }, {
+    "date" : "2026-01-04",
+    "highlightType" : "YOU_STAND_OUT",
+    "youStandOutHighlight" : {
+      "entity" : "Bad Bunny",
+      "country" : "AR",
+      "secondsPlayed" : 6074,
+      "marketAvgSecondsPlayed" : 1825.6957
+    }
+  }, {
+    "date" : "2025-12-28",
+    "highlightType" : "FIRST_TO_DISCOVER",
+    "firstToDiscoverHighlight" : {
+      "entity" : "Qloo*",
+      "country" : "AR",
+      "position" : 2729
+    }
+  }, {
+    "date" : "2025-12-21",
+    "highlightType" : "FANS_LIKE_YOU",
+    "fansLikeYouHighlight" : {
+      "entity" : "Soy Favela",
+      "country" : "AR",
+      "position" : 6,
+      "previousPosition" : 37,
+      "numberOfListeners" : 770713
+    }
+  }, {
+    "date" : "2025-12-14",
+    "highlightType" : "MILESTONE",
+    "multiEntityMilestoneHighlight" : {
+      "entities" : [ "Maluma", "Cumbia rocha", "Bad Bunny", "Dirty Cash (Money Talks)", "I Adore You (feat. Daecolm)", "Ma Tnsani (Yalla Habibi)", "Afraid To Feel", "It Feels So Good", "Drink My Coffee" ],
+      "milestoneListeningSeconds" : 157407
+    }
+  }, {
+    "date" : "2025-12-07",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "si te pillara",
+      "dayStreaks" : 3
+    }
+  }, {
+    "date" : "2025-11-30",
+    "highlightType" : "UNLIKE_COMBINATION",
+    "unlikeCombinationHighlight" : {
+      "firstEntity" : "A Mí",
+      "secondEntity" : "Celestia"
+    }
+  }, {
+    "date" : "2025-11-23",
+    "highlightType" : "YOU_STAND_OUT",
+    "youStandOutHighlight" : {
+      "entity" : "The La Planta",
+      "country" : "AR",
+      "secondsPlayed" : 45543,
+      "marketAvgSecondsPlayed" : 813.2525
+    }
+  }, {
+    "date" : "2025-11-16",
+    "highlightType" : "ON_REPEAT",
+    "onRepeatHighlight" : {
+      "entity" : "Mix Cumbia 2",
+      "streamCount" : 11
+    }
+  }, {
+    "date" : "2025-11-09",
+    "highlightType" : "PROPORTION_LISTENING_ENTITY",
+    "proportionListeningHighlight" : {
+      "entity" : "spotify:playlist:37i9dQZF1E34WolMjrHHl7",
+      "listeningPercentage" : 38.72479632600421
+    }
+  }, {
+    "date" : "2025-11-02",
+    "highlightType" : "FIRST_TO_DISCOVER",
+    "firstToDiscoverHighlight" : {
+      "entity" : "HABLA CLARO",
+      "country" : "AR",
+      "position" : 4752
+    }
+  }, {
+    "date" : "2025-10-26",
+    "highlightType" : "FANS_LIKE_YOU",
+    "fansLikeYouHighlight" : {
+      "entity" : "YO y TÚ",
+      "country" : "AR",
+      "position" : 6,
+      "previousPosition" : 8,
+      "numberOfListeners" : 746289
+    }
+  }, {
+    "date" : "2025-10-19",
+    "highlightType" : "MILESTONE",
+    "milestoneHighlight" : {
+      "entity" : "La T y La M",
+      "milestoneListeningSeconds" : 73634
+    }
+  }, {
+    "date" : "2025-10-12",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "Kapo",
+      "dayStreaks" : 7
+    }
+  }, {
+    "date" : "2025-10-05",
+    "highlightType" : "YOU_STAND_OUT",
+    "youStandOutHighlight" : {
+      "entity" : "Bad Bunny",
+      "country" : "AR",
+      "secondsPlayed" : 44597,
+      "marketAvgSecondsPlayed" : 1825.5621
+    }
+  }, {
+    "date" : "2025-09-28",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "Stumblin' In",
+      "dayStreaks" : 5
+    }
+  }, {
+    "date" : "2025-09-21",
+    "highlightType" : "MILESTONE",
+    "multiEntityMilestoneHighlight" : {
+      "entities" : [ "La T y La M", "Mau P", "FISHER", "Messirve Mix 3", "Un Montón de Estrellas / El Doctorado / Siguiendo la Luna - En Vivo", "BAILE INoLVIDABLE", "amor de veraNO", "When I Push - Edit", "Love Is Gonna Save Us" ],
+      "milestoneListeningSeconds" : 127956
+    }
+  } ]
+}

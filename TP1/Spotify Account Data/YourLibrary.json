@@ -1,0 +1,328 @@
+{
+  "tracks" : [ {
+    "artist" : "Sofia Carson",
+    "album" : "Miss U More Than U Know (with R3HAB)",
+    "track" : "Miss U More Than U Know (with R3HAB)",
+    "uri" : "spotify:track:7s61Kg0qZhhFj5MQW7DDIB"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "X 100PRE",
+    "track" : "200 Mph",
+    "uri" : "spotify:track:5jGUJXnELDaDTgiRjD9lsg"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "YHLQMDLG",
+    "track" : "Hablamos Mañana",
+    "uri" : "spotify:track:1V8XneTrX6kKeoxYbk4x6h"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "YHLQMDLG",
+    "track" : "A Tu Merced",
+    "uri" : "spotify:track:4r9jkMEnArtWGH2rL2FZl0"
+  }, {
+    "artist" : "Diplo",
+    "album" : "Stay High",
+    "track" : "Stay High",
+    "uri" : "spotify:track:7LXimIqTYO76Utly8VFABu"
+  }, {
+    "artist" : "Babasonicos",
+    "album" : "40 Principales Pop & Rock Nacionales",
+    "track" : "Putita",
+    "uri" : "spotify:track:2aYrTzJwVaYzh6wg7POfkg"
+  }, {
+    "artist" : "FISHER",
+    "album" : "You Little Beauty",
+    "track" : "You Little Beauty",
+    "uri" : "spotify:track:1gRQxbfL4ULWyTosgXSbWT"
+  }, {
+    "artist" : "Black Eyed Peas",
+    "album" : "TRANSLATION",
+    "track" : "GIRL LIKE ME",
+    "uri" : "spotify:track:1zLBsSVxETQOfINOLYvT5m"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "nadie sabe lo que va a pasar mañana",
+    "track" : "UN PREVIEW",
+    "uri" : "spotify:track:5ixdmTpCmH5diBA1j154wN"
+  }, {
+    "artist" : "David Guetta",
+    "album" : "Family Affair (Dance For Me)",
+    "track" : "Family Affair (Dance For Me)",
+    "uri" : "spotify:track:1dP519dbEob8H6wiouRdaY"
+  }, {
+    "artist" : "Bizarrap",
+    "album" : "Young Miko: Bzrp Music Sessions, Vol. 58/66",
+    "track" : "Young Miko: Bzrp Music Sessions, Vol. 58/66",
+    "uri" : "spotify:track:6VciS3dRMpZhJiDxT8ArFi"
+  }, {
+    "artist" : "Chris Lake",
+    "album" : "Beggin'",
+    "track" : "Beggin'",
+    "uri" : "spotify:track:74nEGIzIefJhJ5qX7NeIAz"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "YHLQMDLG",
+    "track" : "<3",
+    "uri" : "spotify:track:4MZSqgwlE71CWZ6qQ3gkKm"
+  }, {
+    "artist" : "Rema",
+    "album" : "Calm Down (with Selena Gomez)",
+    "track" : "Calm Down (with Selena Gomez)",
+    "uri" : "spotify:track:0WtM2NBVQNNJLh6scP13H8"
+  }, {
+    "artist" : "Jdr",
+    "album" : "Ese sonidito",
+    "track" : "Ese sonidito",
+    "uri" : "spotify:track:0Xd7CMyvsN0spWDB2zbdwv"
+  }, {
+    "artist" : "Wade",
+    "album" : "Feat Dani Rovira Por Ejemplo",
+    "track" : "Por Ejemplo - Original Mix",
+    "uri" : "spotify:track:351LxhHck1sQDT1XovYiHy"
+  }, {
+    "artist" : "The La Planta",
+    "album" : "La Casa De La Cumbia vol.1",
+    "track" : "Mix Cumbia 2",
+    "uri" : "spotify:track:2UW5a8dLjIBLxULU1hPpsl"
+  }, {
+    "artist" : "Loofy",
+    "album" : "Last Night",
+    "track" : "Last Night",
+    "uri" : "spotify:track:5mF7p5mwgaPZyIykUhO3PN"
+  }, {
+    "artist" : "David Guetta",
+    "album" : "Kill The Vibe",
+    "track" : "Kill The Vibe",
+    "uri" : "spotify:track:4Mw1vqYfDWL2d8dJLWFYQp"
+  }, {
+    "artist" : "Fer Palacio",
+    "album" : "Flexinx",
+    "track" : "Flexinx",
+    "uri" : "spotify:track:4fgkBHbsoUtnXlnCy7nFWW"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "YHLQMDLG",
+    "track" : "Que Malo",
+    "uri" : "spotify:track:53v2u51nq3CxiKUNphRzP1"
+  }, {
+    "artist" : "FISHER",
+    "album" : "TAKE IT OFF",
+    "track" : "TAKE IT OFF",
+    "uri" : "spotify:track:7zp9FOU4cjFdGN1zdWTvcB"
+  }, {
+    "artist" : "Paul Kalkbrenner",
+    "album" : "No Goodbye",
+    "track" : "No Goodbye",
+    "uri" : "spotify:track:5gwLIRjGFf3hXuHoKEsWLg"
+  }, {
+    "artist" : "Ozuna",
+    "album" : "Cosmo",
+    "track" : "Pa Ti Estoy",
+    "uri" : "spotify:track:3j5zNcb0aSk7dx3W3mAKzw"
+  }, {
+    "artist" : "Anyma",
+    "album" : "Genesys II",
+    "track" : "Pictures Of You",
+    "uri" : "spotify:track:0QQBgAXdLm0hfk9aBJe97f"
+  }, {
+    "artist" : "Bebe DJ",
+    "album" : "Tutu",
+    "track" : "Tutu",
+    "uri" : "spotify:track:7aMjA35pe3u8vYQyuxxPq5"
+  }, {
+    "artist" : "Ava Max",
+    "album" : "My Head & My Heart",
+    "track" : "My Head & My Heart - Claptone Remix",
+    "uri" : "spotify:track:0AxhXARnISmbH5UqbqvtDP"
+  }, {
+    "artist" : "Tiësto",
+    "album" : "Don't Be Shy",
+    "track" : "Don't Be Shy",
+    "uri" : "spotify:track:0bI7K9Becu2dtXK1Q3cZNB"
+  }, {
+    "artist" : "David Penn",
+    "album" : "Ain't Got No",
+    "track" : "Ain't Got No",
+    "uri" : "spotify:track:2dGiKnFEOev9qyDvW8bAMq"
+  }, {
+    "artist" : "Matt Sassari",
+    "album" : "Give It To Me",
+    "track" : "Give It To Me - Full Vocal Mix",
+    "uri" : "spotify:track:5ZduaRci3iNUiDfJbBfAaf"
+  }, {
+    "artist" : "Tiësto",
+    "album" : "Drifting",
+    "track" : "Drifting",
+    "uri" : "spotify:track:4EmH2iRucAgCOnhuJRotUi"
+  }, {
+    "artist" : "Swedish House Mafia",
+    "album" : "Paradise Again",
+    "track" : "Redlight",
+    "uri" : "spotify:track:48Jf12YHPBCAfAzi255Rvr"
+  }, {
+    "artist" : "Jend",
+    "album" : "In The Dark",
+    "track" : "In The Dark",
+    "uri" : "spotify:track:1i60PgQlMF9Qgw3Xs4ebPt"
+  }, {
+    "artist" : "ROSALÍA",
+    "album" : "DESPECHÁ",
+    "track" : "DESPECHÁ",
+    "uri" : "spotify:track:5ildQOEKmJuWGl2vRkFdYc"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "nadie sabe lo que va a pasar mañana",
+    "track" : "MONACO",
+    "uri" : "spotify:track:4MjDJD8cW7iVeWInc2Bdyj"
+  }, {
+    "artist" : "J Balvin",
+    "album" : "OASIS",
+    "track" : "YO LE LLEGO",
+    "uri" : "spotify:track:0uIfrUwwg0Z7KTitul7E3T"
+  }, {
+    "artist" : "Peggy Gou",
+    "album" : "(It Goes Like) Nanana",
+    "track" : "(It Goes Like) Nanana - Edit",
+    "uri" : "spotify:track:23RoR84KodL5HWvUTneQ1w"
+  } ],
+  "albums" : [ {
+    "artist" : "Sebastian Yatra",
+    "album" : "Milagro",
+    "uri" : "spotify:album:5yMYOAgxWplaESIY4hZdsR"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "Un Verano Sin Ti",
+    "uri" : "spotify:album:3RQQmkQEvNCY4prGKE6oc5"
+  }, {
+    "artist" : "Various Artists",
+    "album" : "Bridgerton Season Three",
+    "uri" : "spotify:album:4RfuNBOu5bphIjoEc8U4IH"
+  }, {
+    "artist" : "Jóvenes Pordioseros",
+    "album" : "Vicio",
+    "uri" : "spotify:album:5GhW2V4FEHOHEeVydU7TxS"
+  }, {
+    "artist" : "Ed Sheeran",
+    "album" : "=",
+    "uri" : "spotify:album:2CIOGAByaHyjQ1EO55JSzC"
+  }, {
+    "artist" : "Various Artists",
+    "album" : "Funky Tech House",
+    "uri" : "spotify:album:6CTVgZzPgrrE1wAfVnLFXY"
+  }, {
+    "artist" : "Las Pastillas del Abuelo",
+    "album" : "Paradojas",
+    "uri" : "spotify:album:3DtT5DIUDs5ud9dBEySFJq"
+  }, {
+    "artist" : "Bad Bunny",
+    "album" : "DeBÍ TiRAR MáS FOToS",
+    "uri" : "spotify:album:5K79FLRUCSysQnVESLcTdb"
+  }, {
+    "artist" : "Various Artists",
+    "album" : "40 Principales Pop & Rock Nacionales",
+    "uri" : "spotify:album:0E3jvZJsLNFVwDM8gbRbFC"
+  } ],
+  "shows" : [ {
+    "name" : "DevTalles",
+    "publisher" : "Fernando Herrera",
+    "uri" : "spotify:show:0jrfxcnCrD7N9tlA0BGJp5"
+  }, {
+    "name" : "Polemica en /var",
+    "publisher" : "\n        sysarmy\n    ",
+    "uri" : "spotify:show:4aSX6qCCbNLmOUX4fftc5M"
+  }, {
+    "name" : "Santiago Bilinkis – Futuro en Construcción",
+    "publisher" : "Santiago Bilinkis",
+    "uri" : "spotify:show:69DygvNOOHVAt6Rg3WA5il"
+  }, {
+    "name" : "Tecnología Informal",
+    "publisher" : "Gabriel Benmergui",
+    "uri" : "spotify:show:7iha1OwqFHYAmPv9Ya5Pbt"
+  }, {
+    "name" : "The Changelog: Software Development, Open Source",
+    "publisher" : "Changelog Media",
+    "uri" : "spotify:show:5bBki72YeKSLUqyD94qsuJ"
+  } ],
+  "episodes" : [ {
+    "name" : "20 Anonimato y privacidad en Bitcoin",
+    "show" : "Criptomonedas en Argentina",
+    "uri" : "spotify:episode:2ZrkqDL8sYmKsuquCjwRtj"
+  }, {
+    "name" : "21 ¿Qué es Tron?",
+    "show" : "Criptomonedas en Argentina",
+    "uri" : "spotify:episode:4PE85HqpiMy1dMaYMtFCy5"
+  }, {
+    "name" : "26 ¿Qué es Litecoin?",
+    "show" : "Criptomonedas en Argentina",
+    "uri" : "spotify:episode:0KfwpE3COQEagwjZjbpJKh"
+  }, {
+    "name" : "19 Tether, otra alternativa al dólar",
+    "show" : "Criptomonedas en Argentina",
+    "uri" : "spotify:episode:6WKfNbdrxlc0XhPv1lTkxL"
+  }, {
+    "name" : "¿Es amor o es trabajo no pago? | Alejandra EME Vázquez",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:2zeYiMiENaI8lf03rjhXGy"
+  }, {
+    "name" : "¿Escucho o me escucho? | Mirko Mescia",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:0yIG3CM84OBcYxmpykHYas"
+  }, {
+    "name" : "Nuevos modelos de masculinidad | César Galicia",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:3aGqKcgRjyHb1sJkfkXedl"
+  }, {
+    "name" : "Claves para detectar la mentira | José Luis Martín Ovejero",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:6kWviOilRHyP7v1DxsDBiU"
+  }, {
+    "name" : "Conversación: Aprender a vivir en pareja | Diana Wang",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:2ZadnzkDneBfJjIsX5X10R"
+  }, {
+    "name" : "La cultura de la cancelación | Joaquín Sánchez Mariño",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:06PbDSy6BzUXe4NiBGrBIg"
+  }, {
+    "name" : "Mentir para decir la verdad | Liliana Bodoc",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:21NaqpKSknxZOoaZHXtAQ1"
+  }, {
+    "name" : "Cómo dependemos emocionalmente de otros | Arun Mansukhani",
+    "show" : "TED en Español",
+    "uri" : "spotify:episode:1IAwswqVlZghb0mvcOmWY5"
+  } ],
+  "bannedTracks" : [ ],
+  "artists" : [ {
+    "name" : "Bad Bunny",
+    "uri" : "spotify:artist:4q3ewBCX7sLwd24euuV69X"
+  }, {
+    "name" : "FISHER",
+    "uri" : "spotify:artist:1VJ0briNOlXRtJUAzoUJdt"
+  }, {
+    "name" : "G Sony",
+    "uri" : "spotify:artist:326diDmb5N6dRV8FUCROuT"
+  }, {
+    "name" : "Las Pastillas del Abuelo",
+    "uri" : "spotify:artist:0D5U7oXEE4dut2DPyUDLca"
+  }, {
+    "name" : "Miss Monique",
+    "uri" : "spotify:artist:29TpNOsTNYbLb6Xa10H0PR"
+  }, {
+    "name" : "No Te Va Gustar",
+    "uri" : "spotify:artist:4ZDoy7AWNgQVmX7T0u0B1j"
+  }, {
+    "name" : "Piso 21",
+    "uri" : "spotify:artist:4bw2Am3p9ji3mYsXNXtQcd"
+  }, {
+    "name" : "Shakira",
+    "uri" : "spotify:artist:0EmeFodog0BfCgMzAIvKQp"
+  }, {
+    "name" : "Wade",
+    "uri" : "spotify:artist:09iEIVQVBtTVjiuEdqqkIR"
+  } ],
+  "bannedArtists" : [ ],
+  "pageMatch" : [ ],
+  "kallaxes" : [ ],
+  "other" : [ ]
+}

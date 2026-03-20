@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diapositivas Estáticas</title>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+    <style>
+      :root {
+        --bg: #0b1220;
+        --panel: rgba(255, 255, 255, 0.06);
+        --text: #e9eefc;
+        --muted: rgba(233, 238, 252, 0.7);
+        --accent: #6ea8fe;
+        --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(1200px 800px at 10% 10%, rgba(110, 168, 254, 0.18), transparent),
+          radial-gradient(900px 700px at 90% 20%, rgba(120, 255, 220, 0.12), transparent), var(--bg);
+        color: var(--text);
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      }
+
+      .slideshow {
+        width: min(1100px, 92vw);
+        height: min(650px, 78vh);
+        display: grid;
+        grid-template-columns: 70px 1fr 70px;
+        gap: 14px;
+        align-items: stretch;
+      }
+
+      .nav {
+        display: grid;
+        place-items: center;
+      }
+
+      button.nav-btn {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.06);
+        color: var(--text);
+        box-shadow: var(--shadow);
+        cursor: pointer;
+        transition: transform 120ms ease, opacity 120ms ease, background 120ms ease;
+        user-select: none;
+      }
+
+      button.nav-btn:hover {
+        transform: translateY(-1px);
+        background: rgba(255, 255, 255, 0.09);
+      }
+
+      button.nav-btn:active {
+        transform: translateY(0px) scale(0.98);
+      }
+
+      button.nav-btn[disabled] {
+        cursor: not-allowed;
+        opacity: 0.35;
+        transform: none;
+      }
+
+      .stage {
+        --header-h: 74px;
+        --footer-h: 54px;
+        border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: var(--panel);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+        position: relative;
+        display: grid;
+      }
+
+      .stage.hide-chrome .ppt-header,
+      .stage.hide-chrome .ppt-footer {
+        display: none;
+      }
+
+      .ppt-header,
+      .ppt-footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding: 14px 18px;
+        z-index: 3;
+        pointer-events: none;
+        background: linear-gradient(to bottom, rgba(11, 18, 32, 0.78), rgba(11, 18, 32, 0));
+        backdrop-filter: blur(6px);
+      }
+
+      .ppt-header {
+        top: 0;
+      }
+
+      .ppt-footer {
+        bottom: 0;
+        background: linear-gradient(to top, rgba(11, 18, 32, 0.78), rgba(11, 18, 32, 0));
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .ppt-title {
+        margin: 0;
+        font-size: clamp(16px, 1.8vw, 20px);
+        line-height: 1.2;
+        font-weight: 650;
+      }
+
+      .ppt-footer-text {
+        margin: 0;
+        font-size: clamp(14px, 1.6vw, 18px);
+        line-height: 1.2;
+        color: rgba(233, 238, 252, 0.86);
+        font-weight: 600;
+        text-align: right;
+      }
+
+      .slides {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+
+      .slide {
+        position: absolute;
+        inset: 0;
+        padding: clamp(18px, 3vw, 28px);
+        display: grid;
+        align-content: start;
+        gap: 14px;
+        opacity: 0;
+        transform: translateX(14px);
+        pointer-events: none;
+        transition: opacity 220ms ease, transform 220ms ease;
+      }
+
+      .slide {
+        /* Evita que el contenido quede tapado por el header/footer */
+        padding-top: calc(clamp(18px, 3vw, 28px) + var(--header-h));
+        padding-bottom: calc(clamp(18px, 3vw, 28px) + var(--footer-h));
+      }
+
+      .slide.active {
+        opacity: 1;
+        transform: translateX(0px);
+        pointer-events: auto;
+      }
+
+      .slide h1 {
+        margin: 0;
+        font-size: clamp(22px, 2.8vw, 34px);
+        line-height: 1.15;
+      }
+
+      .slide .meta {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .slide .content {
+        margin: 8px auto;
+        color: var(--text);
+        font-size: 1.05rem;
+        line-height: 1.45;
+        max-width: 70ch;
+      }
+
+      .tool-link {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .slide .meta a {
+        color: rgba(110, 168, 254, 0.95);
+        font-weight: 650;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .rawgraph-link {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .rawgraph-link:focus-visible {
+        outline: 2px solid rgba(110, 168, 254, 0.85);
+        outline-offset: 4px;
+        border-radius: 12px;
+      }
+
+      .rawgraph-img {
+        width: min(980px, 100%);
+        height: auto;
+        max-height: 420px;
+        object-fit: contain;
+        user-select: none;
+        pointer-events: none; /* el click toma el <a> */
+      }
+
+      .cover-slide {
+        align-content: center;
+        text-align: center;
+      }
+
+      .cover-title {
+        font-size: clamp(22px, 3.2vw, 44px);
+        line-height: 1.05;
+        margin: 0;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+
+      .cover-student {
+        margin: 6px 0 0;
+        font-size: clamp(16px, 2vw, 22px);
+        color: rgba(233, 238, 252, 0.88);
+        font-weight: 650;
+      }
+
+      .cover-visual {
+        width: min(720px, 100%);
+        margin: clamp(10px, 2.2vw, 18px) auto 0;
+        display: grid;
+        place-items: center;
+      }
+
+      .cover-visual svg {
+        width: 100%;
+        height: auto;
+        max-height: 280px;
+        filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.25));
+      }
+
+      /* Slide 3: hace que el SVG use la mayor altura disponible */
+      .rawgraph-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .rawgraph-slide .content {
+        margin-top: 0;
+        flex: 1;
+        height: 100%;
+        min-height: 0;
+        display: flex;
+      }
+
+      .rawgraph-slide .rawgraph-link {
+        flex: 1;
+        min-height: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        cursor: zoom-in;
+      }
+
+      .rawgraph-slide .rawgraph-img {
+        width: auto;
+        height: auto;
+        max-height: none;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+
+      /* Lupa circular (hover) para la Slide 3 */
+      .img-lens {
+        position: absolute;
+        width: clamp(110px, 16vw, 190px);
+        height: clamp(110px, 16vw, 190px);
+        border-radius: 999px;
+        border: 2px solid rgba(110, 168, 254, 0.85);
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+        background-repeat: no-repeat;
+        pointer-events: none; /* para que el click vaya al <a> */
+        display: none;
+        z-index: 6;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+      }
+
+      .img-lens.is-visible {
+        display: block;
+      }
+
+      /* Slides de embeds (Flourish / Datawrapper / Tableau) */
+      .embed-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .embed-slide .content {
+        margin-top: 0;
+        flex: 1;
+        display: grid;
+        gap: 10px;
+      }
+
+      .embed-hint {
+        margin: 0;
+        color: rgba(233, 238, 252, 0.85);
+        font-size: 0.98rem;
+        line-height: 1.35;
+      }
+
+      .viz-frame {
+        width: 100%;
+        height: 100%;
+        min-height: 320px;
+        border: 0;
+        border-radius: 14px;
+        background: rgba(0, 0, 0, 0.18);
+      }
+
+      .dotbar {
+        position: absolute;
+        bottom: calc(14px + var(--footer-h));
+        left: 16px;
+        right: 16px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.18);
+      }
+
+      .dot.active {
+        background: var(--accent);
+        box-shadow: 0 0 0 6px rgba(110, 168, 254, 0.15);
+      }
+
+      .kbd-hint {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+        color: rgba(233, 238, 252, 0.55);
+        font-size: 0.9rem;
+        z-index: 4;
+      }
+
+      code.kbd {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+          "Courier New", monospace;
+        font-size: 0.9em;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 2px 6px;
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.2);
+        color: rgba(233, 238, 252, 0.78);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="slideshow" aria-label="Presentación en diapositivas">
+      <div class="nav">
+        <button class="nav-btn" id="prevBtn" aria-label="Anterior" disabled>
+          &#8592;
+        </button>
+      </div>
+
+      <section class="stage" id="stage">
+        <header class="ppt-header" aria-label="Título del trabajo práctico">
+          <div class="ppt-title">
+            Trabajo Práctico: Visualización de Datos Personales (ECD.2025.A)
+          </div>
+        </header>
+
+        <div class="kbd-hint" aria-hidden="true">
+          Teclado: <code class="kbd">←</code> <code class="kbd">→</code>
+        </div>
+
+        <div class="slides" id="slides">
+          <!-- Portada -->
+          <article class="slide cover-slide" data-index="0" aria-label="Portada">
+            <h1 class="cover-title">Trabajo Práctico: Visualización de Datos Personales</h1>
+            <div class="cover-student">Alumno: Nicolas Moccagatta</div>
+
+            <div class="cover-visual" aria-hidden="true">
+              <!-- Ícono visual (líneas + barras) -->
+              <svg viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" role="img">
+                <defs>
+                  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#6ea8fe" stop-opacity="0.95" />
+                    <stop offset="1" stop-color="#78ffdc" stop-opacity="0.7" />
+                  </linearGradient>
+                </defs>
+
+                <rect x="0" y="0" width="900" height="360" fill="rgba(255,255,255,0.02)" rx="22" />
+
+                <!-- barras -->
+                <g transform="translate(70,40)">
+                  <rect x="40" y="185" width="70" height="95" fill="url(#g1)" opacity="0.55" rx="14" />
+                  <rect x="140" y="135" width="70" height="145" fill="url(#g1)" opacity="0.65" rx="14" />
+                  <rect x="240" y="95" width="70" height="185" fill="url(#g1)" opacity="0.72" rx="14" />
+                  <rect x="340" y="145" width="70" height="135" fill="url(#g1)" opacity="0.62" rx="14" />
+                  <rect x="440" y="70" width="70" height="210" fill="url(#g1)" opacity="0.78" rx="14" />
+                  <rect x="540" y="120" width="70" height="160" fill="url(#g1)" opacity="0.64" rx="14" />
+                </g>
+
+                <!-- curva / puntos -->
+                <g>
+                  <path
+                    d="M120 250 C 210 180, 290 210, 360 160
+                       S 520 100, 610 150
+                       S 760 240, 820 190"
+                    fill="none"
+                    stroke="#6ea8fe"
+                    stroke-width="8"
+                    stroke-linecap="round"
+                    stroke-opacity="0.5"
+                  />
+                  <g fill="#6ea8fe" opacity="0.9">
+                    <circle cx="120" cy="250" r="12" />
+                    <circle cx="205" cy="190" r="10" />
+                    <circle cx="360" cy="160" r="11" />
+                    <circle cx="520" cy="110" r="9" />
+                    <circle cx="610" cy="150" r="11" />
+                    <circle cx="760" cy="240" r="10" />
+                    <circle cx="820" cy="190" r="12" />
+                  </g>
+                </g>
+
+                <!-- grilla sutil -->
+                <g opacity="0.35">
+                  <path d="M90 60 H 830" stroke="#e9eefc" stroke-width="1" stroke-opacity="0.08" />
+                  <path d="M90 120 H 830" stroke="#e9eefc" stroke-width="1" stroke-opacity="0.08" />
+                  <path d="M90 180 H 830" stroke="#e9eefc" stroke-width="1" stroke-opacity="0.08" />
+                  <path d="M90 240 H 830" stroke="#e9eefc" stroke-width="1" stroke-opacity="0.08" />
+                  <path d="M90 300 H 830" stroke="#e9eefc" stroke-width="1" stroke-opacity="0.08" />
+                </g>
+              </svg>
+            </div>
+          </article>
+
+          <!-- Slide 1 -->
+          <article class="slide active" data-index="1" aria-label="Diapositiva 1">
+            <h1>Introducción</h1>
+            <div class="meta">Consigna del TP y enfoque del proyecto</div>
+            <div class="content">
+              <p>
+                El TP pide contar una historia con datos personales en una página web, integrando
+                visualizaciones estáticas y/o interactivas con las herramientas vistas en clase
+                (RAWGraphs, Flourish, Datawrapper y Tableau).
+              </p>
+              <p>
+                Tomé dos historiales personales: Spotify y GitHub.
+                En Spotify agregué por <b>día</b> el <b>artista más escuchado</b> y el <b>tiempo escuchado</b>.
+                En GitHub conté las <b>contribuciones por día</b>. Al juntar ambas señales,
+                busco visualizar si ciertos artistas se asocian con mis días de mayor productividad.
+              </p>
+            </div>
+          </article>
+
+          <!-- Slide 2 -->
+          <article class="slide" data-index="2" aria-label="Diapositiva 2">
+            <h1>Desarrollo</h1>
+            <div class="meta">Integración Spotify + GitHub por día</div>
+            <div class="content">
+              <p>
+                Tomé mi historial de Spotify y lo convertí en una serie temporal diaria.
+              </p>
+              <p>
+                Para cada día identifiqué el <b>artista más escuchado</b> y el <b>tiempo total</b>
+                de escucha.
+              </p>
+              <p>
+                En paralelo, usé mi historial de GitHub para construir otra serie diaria:
+                <b>contribuciones por día</b>. El proceso de armado del dataset y el repositorio
+                quedan documentados aquí:
+              </p>
+              <p style="text-align: center;">
+                <a
+                  href="https://github.com/nicomoccagatta/infovis/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="color: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 3px;"
+                >
+                  GitHub: nicomoccagatta/infovis
+                  </a>
+              </p>
+              <p>
+                Luego uní ambas señales por fecha para leer relaciones entre hábitos y productividad.
+                La pregunta guía es: <b>¿qué artista aparece más asociado a mis jornadas de mayor actividad?</b>
+              </p>
+              <p>
+                Con esa base armé las 4 visualizaciones integradas (RAWGraphs, Flourish,
+                Datawrapper y Tableau), cada una formulada como una <b>pregunta</b> que
+                orienta la interpretación y sustenta las conclusiones.
+              </p>
+            </div>
+          </article>
+
+          <!-- Slide 3 -->
+          <article class="slide rawgraph-slide" data-index="3" aria-label="Diapositiva 3">
+            <h1>
+              <a
+                class="tool-link"
+                href="https://www.rawgraphs.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir RAWGraphs (rawgraphs.io) en una pestaña nueva"
+              >
+                RawGraphs.io
+              </a>
+            </h1>
+            <div class="meta">¿Qué artista se asocia más con mis días de mayor productividad?</div>
+            <div class="content">
+              <a
+                class="rawgraph-link"
+                href="Graficos/RawGraphs/app-rawgraphs-io.svg"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir gráfico RawGraphs en una pestaña nueva"
+                title="Abrir gráfico en una pestaña nueva"
+              >
+                <img
+                  class="rawgraph-img"
+                  src="Graficos/RawGraphs/app-rawgraphs-io.svg"
+                  alt="Gráfico RawGraphs"
+                />
+                <div class="img-lens" id="rawgraphLens" aria-hidden="true"></div>
+              </a>
+            </div>
+          </article>
+
+          <!-- Slide 4 -->
+          <article class="slide embed-slide" data-index="4" aria-label="Diapositiva 4">
+            <h1>Flourish</h1>
+            <div class="meta">¿Qué cambios se observan a lo largo del tiempo?</div>
+            <div class="content">
+              <p class="embed-hint">Reemplazá el `src` del `iframe` con tu embed de Flourish.</p>
+              <iframe class="viz-frame" title="Flourish embed" src="about:blank" loading="lazy"></iframe>
+            </div>
+          </article>
+
+          <!-- Slide 5 -->
+          <article class="slide embed-slide" data-index="5" aria-label="Diapositiva 5">
+            <h1>Datawrapper</h1>
+            <div class="meta">¿Qué artista aparece con más presencia en mis días?</div>
+            <div class="content">
+              <p class="embed-hint">Reemplazá el `src` del `iframe` con tu embed de Datawrapper.</p>
+              <iframe class="viz-frame" title="Datawrapper embed" src="about:blank" loading="lazy"></iframe>
+            </div>
+          </article>
+
+          <!-- Slide 6 -->
+          <article class="slide embed-slide" data-index="6" aria-label="Diapositiva 6">
+            <h1>Tableau</h1>
+            <div class="meta">¿Coincide mi escucha con mis días de mayor actividad en GitHub?</div>
+            <div class="content">
+              <p class="embed-hint">Reemplazá el `src` del `iframe` con tu embed de Tableau.</p>
+              <iframe class="viz-frame" title="Tableau embed" src="about:blank" loading="lazy"></iframe>
+            </div>
+          </article>
+        </div>
+
+        <div class="dotbar" id="dotbar" aria-hidden="true"></div>
+
+        <footer class="ppt-footer" aria-label="Nombre del alumno">
+          <p class="ppt-footer-text">Alumno: Nicolas Moccagatta</p>
+        </footer>
+      </section>
+
+      <div class="nav">
+        <button class="nav-btn" id="nextBtn" aria-label="Siguiente">
+          &#8594;
+        </button>
+      </div>
+    </main>
+
+    <script>
+      const slidesEl = document.getElementById("slides");
+      const slides = Array.from(slidesEl.querySelectorAll(".slide"));
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const dotbar = document.getElementById("dotbar");
+      const stageEl = document.getElementById("stage");
+
+      let index = 0;
+
+      function renderDots() {
+        dotbar.innerHTML = "";
+        slides.forEach((_, i) => {
+          const dot = document.createElement("div");
+          dot.className = "dot" + (i === index ? " active" : "");
+          dotbar.appendChild(dot);
+        });
+      }
+
+      function setActive(newIndex) {
+        index = Math.max(0, Math.min(slides.length - 1, newIndex));
+
+        slides.forEach((slide, i) => {
+          slide.classList.toggle("active", i === index);
+        });
+
+        // Oculta el header/footer (título + alumno) solo en la portada.
+        stageEl.classList.toggle("hide-chrome", index === 0);
+
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === slides.length - 1;
+
+        const dots = Array.from(dotbar.querySelectorAll(".dot"));
+        dots.forEach((dot, i) => dot.classList.toggle("active", i === index));
+      }
+
+      // Slide 3 (RawGraphs): lupa circular con zoom al pasar el mouse
+      (function initRawgraphsLens() {
+        const rawImg = document.querySelector(".rawgraph-slide img");
+        const lens = document.getElementById("rawgraphLens");
+        if (!rawImg || !lens) return;
+
+        const zoom = 2.6; // ajustá el zoom si querés más/menos aumento
+
+        const rawLink = rawImg.closest("a");
+        lens.style.backgroundImage = `url("${rawImg.currentSrc || rawImg.src}")`;
+
+        let rafId = null;
+
+        function updateLens(e) {
+          const imgRect = rawImg.getBoundingClientRect();
+          const linkRect = rawLink ? rawLink.getBoundingClientRect() : imgRect;
+
+          // Coordenadas del mouse dentro del área del <img>
+          const x = Math.min(imgRect.width, Math.max(0, e.clientX - imgRect.left));
+          const y = Math.min(imgRect.height, Math.max(0, e.clientY - imgRect.top));
+
+          // Posición del lente (en el sistema del contenedor del <a>)
+          const lensX = e.clientX - linkRect.left;
+          const lensY = e.clientY - linkRect.top;
+
+          const lensW = lens.offsetWidth;
+          const lensH = lens.offsetHeight;
+
+          lens.style.left = `${lensX}px`;
+          lens.style.top = `${lensY}px`;
+
+          // Mapa del fondo ampliado: el punto (x,y) del <img> queda centrado en el lente
+          lens.style.backgroundSize = `${imgRect.width * zoom}px ${imgRect.height * zoom}px`;
+          const bgX = -(x * zoom) + lensW / 2;
+          const bgY = -(y * zoom) + lensH / 2;
+          lens.style.backgroundPosition = `${bgX}px ${bgY}px`;
+        }
+
+        rawImg.addEventListener("mouseenter", () => {
+          lens.classList.add("is-visible");
+        });
+
+        rawImg.addEventListener("mouseleave", () => {
+          lens.classList.remove("is-visible");
+        });
+
+        rawImg.addEventListener("mousemove", (e) => {
+          if (rafId) cancelAnimationFrame(rafId);
+          rafId = requestAnimationFrame(() => updateLens(e));
+        });
+
+        window.addEventListener("scroll", () => {
+          lens.classList.remove("is-visible");
+        }, { passive: true });
+      })();
+
+      function goPrev() {
+        setActive(index - 1);
+      }
+
+      function goNext() {
+        setActive(index + 1);
+      }
+
+      prevBtn.addEventListener("click", goPrev);
+      nextBtn.addEventListener("click", goNext);
+
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") goPrev();
+        if (e.key === "ArrowRight") goNext();
+      });
+
+      // Inicializa dots y estado de botones.
+      renderDots();
+      setActive(0);
+    </script>
+  </body>
+</html>
