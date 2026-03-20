@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAWGraphs | Pantalla completa</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background: #0a1020;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+        padding: 16px;
+        box-sizing: border-box;
+      }
+
+      .fullscreen-viz {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+      }
+
+      .fullscreen-viz img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="fullscreen-viz" aria-label="Gráfico RawGraphs en pantalla completa">
+      <img src="Graficos/RawGraphs/app-rawgraphs-io.svg" alt="Gráfico RawGraphs" />
+    </main>
+  </body>
+</html>
