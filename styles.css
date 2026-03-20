@@ -1,0 +1,270 @@
+:root{
+  --bg: #0b1220;
+  --panel: rgba(255, 255, 255, 0.06);
+  --text: #e9eefc;
+  --muted: rgba(233, 238, 252, 0.7);
+  --accent: #6ea8fe;
+  --accent3: #78ffdc;
+  --stroke: rgba(255, 255, 255, 0.12);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+*{ box-sizing:border-box; }
+
+html,body{ height:100%; }
+
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  color:var(--text);
+  background:
+    radial-gradient(1200px 800px at 10% 10%, rgba(110, 168, 254, 0.18), transparent),
+    radial-gradient(900px 700px at 90% 20%, rgba(120, 255, 220, 0.12), transparent),
+    var(--bg);
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrap{
+  min-height:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+.site-header{
+  padding: 44px 18px 18px;
+}
+
+.container{
+  width: min(980px, calc(100% - 36px));
+  margin: 0 auto;
+}
+
+.hero{
+  display:grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.brand{
+  background: linear-gradient(135deg, rgba(110, 168, 254, 0.16), rgba(120, 255, 220, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
+  padding: 22px 20px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+.brand h1{
+  margin:0 0 8px;
+  font-size: clamp(22px, 3vw, 34px);
+  letter-spacing: -0.02em;
+}
+
+.brand p{
+  margin:0;
+  color:var(--muted);
+  line-height: 1.45;
+}
+
+.chip-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top: 14px;
+}
+
+.chip{
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.04);
+  color: rgba(233,238,252,0.86);
+  font-size: 13px;
+}
+
+.hero-visual{
+  border-radius: 18px;
+  border: 1px solid var(--stroke);
+  background: rgba(255,255,255,0.04);
+  box-shadow: var(--shadow);
+  overflow:hidden;
+  backdrop-filter: blur(8px);
+  min-height: 210px;
+}
+
+.hero-visual img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+  opacity: 0.95;
+}
+
+.main{
+  padding: 12px 0 60px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.05));
+  border: 1px solid var(--stroke);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+.card h2{
+  margin: 0 0 10px;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+.nav{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 10px;
+  padding: 14px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255, 255, 255, 0.06);
+  transition: transform 160ms ease, opacity 160ms ease, background 160ms ease, border-color 160ms ease;
+  min-height: 54px;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.09);
+  border-color: rgba(110, 168, 254, 0.45);
+}
+
+.btn:focus-visible{
+  outline: 3px solid rgba(110, 168, 254, 0.45);
+  outline-offset: 3px;
+}
+
+.btn .label{
+  display:flex;
+  flex-direction:column;
+  gap: 4px;
+}
+
+.btn .label strong{
+  font-size: 15px;
+  letter-spacing: -0.01em;
+}
+
+.btn .label span{
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.icon{
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  opacity: 0.9;
+}
+
+.back{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom: 14px;
+  color: rgba(234,240,255,0.85);
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+}
+
+.back:hover{
+  border-color: rgba(110, 168, 254, 0.35);
+}
+
+.content h1{
+  margin: 8px 0 14px;
+  font-size: 18px;
+}
+
+.content object,
+.content .flourish-embed,
+.content #datawrapper-vis-mXJQk{
+  width: 100%;
+}
+
+.viz-surface{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25);
+}
+
+.viz-surface.viz-sankey{
+  padding: 10px;
+}
+
+/* El <object> NO respeta bien `height:auto`, por eso antes se recortaba.
+   Forzamos una altura responsive para que el SVG muestre todo y conserve tooltips. */
+.viz-surface .viz-object{
+  display:block;
+  width: 100%;
+  height: clamp(320px, 62vw, 720px);
+  background: #ffffff;
+}
+
+.viz-img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.viz-surface iframe{
+  background: #ffffff !important;
+  border-radius: 12px;
+  filter: contrast(1.18) saturate(1.12);
+}
+
+.viz-surface .flourish-embed{
+  background: transparent;
+}
+
+.viz-surface #datawrapper-vis-mXJQk{
+  background: #ffffff;
+}
+
+footer{
+  margin-top:auto;
+  padding: 18px 18px 28px;
+  color: rgba(233,238,252,0.6);
+  font-size: 13px;
+}
+
+@media (max-width: 720px){
+  .hero{
+    grid-template-columns: 1fr;
+  }
+  .nav{
+    grid-template-columns: 1fr;
+  }
+}
+
