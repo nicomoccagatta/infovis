@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flourish | Pantalla completa</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background: #0a1020;
+        overflow: hidden;
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .fullscreen-viz {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: stretch;
+      }
+
+      .flourish-embed {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="fullscreen-viz" aria-label="Gráfico de Flourish en pantalla completa">
+      <div class="flourish-embed flourish-chart" data-src="visualisation/28159970">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <noscript>
+          <img
+            src="https://public.flourish.studio/visualisation/28159970/thumbnail"
+            width="100%"
+            alt="visualization"
+          />
+        </noscript>
+      </div>
+    </main>
+  </body>
+</html>
