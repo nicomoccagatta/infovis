@@ -93,7 +93,7 @@
         font-size: clamp(14px, 1.28vw, 17px);
         line-height: 1.62;
         font-weight: 450;
-        color: rgba(233, 238, 252, 0.74);
+        color: rgba(233, 238, 252, 0.78);
         text-wrap: pretty;
       }
 
@@ -270,7 +270,7 @@
         color: rgba(255, 255, 255, 0.86);
         text-decoration: none;
         border: 1px solid rgba(255, 255, 255, 0);
-        transition: transform 140ms ease, background 140ms ease, border-color 140ms ease, color 140ms ease;
+        transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
         font-size: 13px;
         white-space: nowrap;
       }
@@ -280,9 +280,8 @@
       }
 
       .topbar-link:hover {
-        background: rgba(34, 197, 94, 0.18);
-        border-color: rgba(34, 197, 94, 0.35);
-        transform: translateY(-1px);
+        background: rgba(34, 197, 94, 0.14);
+        border-color: rgba(34, 197, 94, 0.30);
       }
 
       .topbar-link:focus-visible {
@@ -301,8 +300,7 @@
         color: rgba(255, 255, 255, 0.86);
         text-decoration: none;
         border: 1px solid rgba(255, 255, 255, 0);
-        transition: transform 140ms ease, background 140ms ease, border-color 140ms ease,
-          color 140ms ease;
+        transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
         font-size: 13px;
         white-space: nowrap;
         cursor: pointer;
@@ -331,9 +329,8 @@
       }
 
       .topbar-dropdown-trigger:hover {
-        background: rgba(34, 197, 94, 0.18);
-        border-color: rgba(34, 197, 94, 0.35);
-        transform: translateY(-1px);
+        background: rgba(34, 197, 94, 0.14);
+        border-color: rgba(34, 197, 94, 0.30);
       }
 
       .topbar-dropdown-trigger:focus-visible {
@@ -381,8 +378,8 @@
       }
 
       .topbar-dropdown-item:hover {
-        background: rgba(34, 197, 94, 0.18);
-        border-color: rgba(34, 197, 94, 0.28);
+        background: rgba(34, 197, 94, 0.14);
+        border-color: rgba(34, 197, 94, 0.24);
         color: rgba(255, 255, 255, 0.94);
       }
 
@@ -502,18 +499,23 @@
 
       .narrative-bridge .bridge-line {
         width: 1px;
-        height: 32px;
-        background: linear-gradient(to bottom, transparent, rgba(233, 238, 252, 0.3), transparent);
+        height: 24px;
+        background: linear-gradient(to bottom, transparent, rgba(233, 238, 252, 0.24), transparent);
       }
 
       .narrative-bridge .bridge-text {
         margin: 0;
-        max-width: 54ch;
-        font-size: clamp(15px, 1.4vw, 18px);
-        line-height: 1.7;
-        font-weight: 480;
-        color: rgba(233, 238, 252, 0.78);
+        max-width: 48ch;
+        font-size: clamp(13.5px, 1.2vw, 16px);
+        line-height: 1.65;
+        font-weight: 440;
+        color: rgba(233, 238, 252, 0.68);
         text-wrap: pretty;
+      }
+
+      .section .content:has(.findings-grid) {
+        width: 100%;
+        max-width: none;
       }
 
       .findings-grid {
@@ -524,7 +526,7 @@
       }
 
       .finding-card {
-        padding: 18px 16px;
+        padding: 20px 18px;
         border-radius: 14px;
         border: 1px solid rgba(120, 255, 220, 0.2);
         background: linear-gradient(
@@ -533,16 +535,16 @@
           rgba(47, 111, 237, 0.06)
         );
         display: grid;
-        gap: 8px;
-        transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
-                    border-color 0.28s ease,
-                    box-shadow 0.28s ease;
+        gap: 10px;
+        transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1),
+                    border-color 0.32s ease,
+                    box-shadow 0.32s ease;
       }
 
       .finding-card:hover {
-        transform: translateY(-3px);
-        border-color: rgba(120, 255, 220, 0.38);
-        box-shadow: 0 8px 24px rgba(34, 197, 94, 0.12);
+        transform: translateY(-2px);
+        border-color: rgba(120, 255, 220, 0.32);
+        box-shadow: 0 6px 20px rgba(34, 197, 94, 0.10);
       }
 
       .finding-number {
@@ -562,7 +564,7 @@
       }
 
       .closing-headline {
-        margin: 0;
+        margin: 10px 0 0;
         max-width: 48ch;
         font-size: clamp(20px, 2.4vw, 30px);
         line-height: 1.2;
@@ -574,11 +576,10 @@
 
       .closing-body {
         margin: 0;
-        max-width: 64ch;
         font-size: clamp(15px, 1.35vw, 18px);
         line-height: 1.7;
-        color: rgba(233, 238, 252, 0.8);
-        font-weight: 460;
+        color: rgba(233, 238, 252, 0.82);
+        font-weight: 480;
       }
 
       .closing-quote {
@@ -597,7 +598,7 @@
         padding: clamp(26px, 3.6vw, 42px);
         display: grid;
         align-content: start;
-        gap: 18px;
+        gap: 6px;
         pointer-events: auto;
         scroll-margin-top: var(--topbar-h);
         background: radial-gradient(
@@ -633,22 +634,23 @@
       }
 
       .section .meta {
-        color: rgba(233, 238, 252, 0.68);
+        margin-top: 2px;
+        color: rgba(233, 238, 252, 0.72);
         font-size: 0.96rem;
         line-height: 1.45;
         font-style: italic;
       }
 
       .section .content {
-        margin: 10px auto 0;
+        margin: 14px 0 0;
         color: rgba(233, 238, 252, 0.82);
         font-size: 1.02rem;
         line-height: 1.7;
-        width: min(72ch, 100%);
+        width: min(66ch, 100%);
       }
 
       .section .content > * + * {
-        margin-top: 14px;
+        margin-top: 16px;
       }
 
       .section-kicker {
@@ -661,7 +663,7 @@
       }
 
       .section-lead {
-        margin: 0;
+        margin: 8px 0 0;
         width: min(66ch, 100%);
         font-size: clamp(15px, 1.35vw, 18px);
         line-height: 1.7;
@@ -707,18 +709,19 @@
 
       .viz-title {
         margin: 0;
-        font-size: 0.95rem;
-        letter-spacing: 0.08em;
+        font-size: 0.85rem;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: rgba(233, 238, 252, 0.64);
-        font-weight: 700;
+        color: rgba(233, 238, 252, 0.48);
+        font-weight: 600;
       }
 
       .viz-insight {
         margin: 0;
-        font-size: 1rem;
-        line-height: 1.5;
-        color: rgba(233, 238, 252, 0.84);
+        font-size: 0.95rem;
+        line-height: 1.55;
+        color: rgba(233, 238, 252, 0.74);
+        font-style: italic;
       }
 
       .content-center {
@@ -855,6 +858,8 @@
       .rawgraph-section .content {
         margin-top: 0;
         display: block;
+        width: 100%;
+        max-width: none;
       }
 
       .rawgraph-section .rawgraph-link {
@@ -882,8 +887,9 @@
         display: grid;
         grid-template-rows: auto auto 1fr;
         align-items: stretch;
-        gap: 8px;
+        gap: 6px;
         min-height: 0;
+        padding: clamp(22px, 3vw, 34px);
       }
 
       .embed-section .content {
@@ -991,7 +997,7 @@
 
       .zoom-btn:hover {
         background: rgba(255, 255, 255, 1);
-        box-shadow: 0 8px 22px rgba(10, 20, 40, 0.18);
+        box-shadow: 0 6px 18px rgba(10, 20, 40, 0.14);
       }
 
       .zoom-btn:focus-visible {
@@ -1001,6 +1007,87 @@
 
       .rawgraph-zoom {
         cursor: pointer;
+      }
+
+      /* ── Editorial sections: lightweight, no card ── */
+
+      .section-editorial {
+        background: none;
+        backdrop-filter: none;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        overflow: visible;
+        text-shadow: 0 1px 14px rgba(0, 0, 0, 0.32);
+        padding: clamp(24px, 3.2vw, 40px) 0;
+        max-width: 66ch;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .section-editorial h1 {
+        font-size: clamp(22px, 2.6vw, 32px);
+      }
+
+      .data-sources {
+        display: grid;
+        gap: 18px;
+      }
+
+      .data-source {
+        display: grid;
+        gap: 4px;
+      }
+
+      .data-source-label {
+        margin: 0;
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: rgba(120, 255, 220, 0.6);
+      }
+
+      .data-source-desc {
+        margin: 0;
+        font-size: 1.02rem;
+        line-height: 1.7;
+        color: rgba(233, 238, 252, 0.82);
+      }
+
+      /* ── Viz sections: strip inner shell to reduce double-boxing ── */
+
+      .rawgraph-section .viz-shell,
+      .embed-section .viz-shell {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+        margin-top: 0;
+        border-radius: 0;
+      }
+
+      .rawgraph-section .viz-header,
+      .embed-section .viz-header {
+        margin-bottom: 14px;
+        padding: 0;
+      }
+
+      .rawgraph-section,
+      .embed-section {
+        border-color: rgba(110, 168, 254, 0.18);
+      }
+
+      .rawgraph-section h1,
+      .embed-section h1 {
+        font-size: clamp(20px, 2.4vw, 30px);
+      }
+
+      .rawgraph-section .section-lead,
+      .embed-section .section-lead {
+        font-size: clamp(14px, 1.2vw, 16px);
+        color: rgba(233, 238, 252, 0.74);
+        font-weight: 460;
       }
 
       .section-closing {
@@ -1016,7 +1103,7 @@
             transparent 24%
           ),
           rgba(11, 18, 32, 0.12);
-        gap: 20px;
+        gap: 6px;
         padding: clamp(30px, 4vw, 50px);
       }
 
@@ -1068,6 +1155,14 @@
           opacity: 1;
           transform: none;
           transition: none;
+        }
+        .finding-card,
+        .hero-scroll {
+          transition: none;
+        }
+        .finding-card:hover,
+        .hero-scroll:hover {
+          transform: none;
         }
       }
 
@@ -1182,7 +1277,7 @@
 
         <nav class="topbar-links" aria-label="Secciones">
           <a class="topbar-link" href="#introduccion">Introducción</a>
-          <a class="topbar-link" href="#desarrollo">Desarrollo</a>
+          <a class="topbar-link" href="#desarrollo">Datos</a>
           <details class="topbar-dropdown">
             <summary class="topbar-dropdown-trigger">Visualizaciones</summary>
             <div class="topbar-dropdown-menu">
@@ -1204,7 +1299,7 @@
           <div class="hero-intro" data-index="0" id="inicio" aria-label="Portada">
             <aside class="hero-rail hero-rail-left" aria-hidden="true">
               <p class="hero-rail-label">Spotify</p>
-              <p class="hero-rail-value">Habitos de escucha</p>
+              <p class="hero-rail-value">Hábitos de escucha</p>
             </aside>
             <h1 class="cover-title">Codeando al ritmo de Spotify</h1>
             <div class="hero-secondary">
@@ -1232,67 +1327,71 @@
           <div class="narrative-bridge" data-reveal aria-hidden="true">
             <div class="bridge-line"></div>
             <p class="bridge-text">
-              ¿Qué pasa cuando cruzamos dos señales personales
-            </p>
-            <p class="bridge-text">
-               — Lo que escuchamos y lo que producimos —
-            </p>
-            <p class="bridge-text">
-              Para buscar... ¿Patrones ocultos de productividad?
+              Dos historiales personales — lo que escucho y lo que desarrollo —
+              leídos como señales paralelas de un mismo período.
             </p>
             <div class="bridge-line"></div>
           </div>
 
           <!-- Sección Introducción -->
-          <section class="section" data-reveal data-index="1" id="introduccion" aria-label="Sección Introducción">
+          <section class="section section-editorial" data-reveal data-index="1" id="introduccion" aria-label="Sección Introducción">
             <p class="section-kicker">01 · Introducción</p>
-            <h1>Introducción</h1>
-            <div class="meta">Consigna del TP y enfoque del proyecto</div>
+            <h1>El proyecto</h1>
+            <div class="meta">Contexto, motivación y alcance del análisis</div>
             <p class="section-lead">
-              Esta entrega cruza hábitos de escucha y actividad técnica para responder una pregunta:
-              si el contexto musical acompaña de forma consistente mis momentos de mayor foco.
+              Este trabajo explora la relación entre hábitos de escucha musical y actividad
+              de desarrollo de software a partir de datos personales extraídos de Spotify y GitHub.
             </p>
             <div class="content">
               <p>
-                El TP pide contar una historia con datos personales en una página web, integrando
-                visualizaciones estáticas y/o interactivas con las herramientas vistas en clase
-                (RAWGraphs, Flourish, Datawrapper y Tableau).
+                La consigna propone contar una historia con datos personales, apoyada en
+                visualizaciones con RAWGraphs, Flourish, Datawrapper y Tableau.
               </p>
               <p>
-                Tomé dos historiales personales: Spotify y GitHub.
-                En Spotify agregué por <b>día</b> el <b>artista más escuchado</b> y el <b>tiempo escuchado</b>.
-                En GitHub conté las <b>contribuciones por día</b>. Al juntar ambas señales,
-                busco visualizar si ciertos artistas se asocian con mis días de mayor productividad.
+                La premisa: si ambos registros comparten la misma línea de tiempo, ¿aparecen
+                regularidades visibles al cruzarlos? El objetivo es explorar <b>co-ocurrencia</b>,
+                no probar causalidad.
               </p>
               <p class="insight-callout">
-                <strong>Lectura guía:</strong> la narrativa avanza desde contexto y metodología hacia
-                evidencias visuales comparables entre herramientas.
+                <strong>Alcance:</strong> datos de un único usuario y un período acotado.
+                Las observaciones son personales y exploratorias.
               </p>
             </div>
           </section>
 
-          <!-- Sección Desarrollo -->
-          <section class="section" data-reveal data-index="2" id="desarrollo" aria-label="Sección Desarrollo">
-            <p class="section-kicker">02 · Contexto y armado del dataset</p>
-            <h1>Desarrollo</h1>
-            <div class="meta">Integración Spotify + GitHub por día</div>
+          <!-- Sección Datos y metodología -->
+          <section class="section section-editorial" data-reveal data-index="2" id="desarrollo" aria-label="Sección Datos y metodología">
+            <p class="section-kicker">02 · Datos y metodología</p>
+            <h1>Construcción del dataset</h1>
+            <div class="meta">Fuentes, procesamiento y criterio de integración</div>
             <p class="section-lead">
-              El dataset se construye con una lógica temporal común para hacer legible la relación
-              entre escucha musical y productividad en desarrollo.
+              El análisis parte de dos fuentes independientes que se integran a través de una
+              clave temporal común: la fecha.
             </p>
             <div class="content">
-              <p>
-                Tomé mi historial de Spotify y lo convertí en una serie temporal diaria.
-              </p>
-              <p>
-                Para cada día identifiqué el <b>artista más escuchado</b> y el <b>tiempo total</b>
-                de escucha.
-              </p>
-              <p>
-                En paralelo, usé mi historial de GitHub para construir otra serie diaria:
-                <b>contribuciones por día</b>. El proceso de armado del dataset y el repositorio
-                quedan documentados aquí:
-              </p>
+              <div class="data-sources">
+                <div class="data-source">
+                  <p class="data-source-label">Fuente 1 · Spotify</p>
+                  <p class="data-source-desc">
+                    Historial de reproducción exportado y agregado por día:
+                    artista más escuchado, género predominante y minutos totales.
+                  </p>
+                </div>
+                <div class="data-source">
+                  <p class="data-source-label">Fuente 2 · GitHub</p>
+                  <p class="data-source-desc">
+                    Contribuciones diarias (commits, pull requests, revisiones).
+                    Indicador aproximado de actividad de desarrollo.
+                  </p>
+                </div>
+                <div class="data-source">
+                  <p class="data-source-label">Integración</p>
+                  <p class="data-source-desc">
+                    Ambas series se alinean por fecha en un dataset unificado:
+                    cada fila es un día con sus variables de escucha y actividad.
+                  </p>
+                </div>
+              </div>
               <p class="content-center">
                 <a
                   class="tool-link"
@@ -1300,21 +1399,13 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  GitHub: nicomoccagatta/infovis
+                  Repositorio del proyecto: nicomoccagatta/infovis
                 </a>
               </p>
-              <p>
-                Luego uní ambas señales por fecha para leer relaciones entre hábitos y productividad.
-                La pregunta guía es: <b>¿qué artista aparece más asociado a mis jornadas de mayor actividad?</b>
-              </p>
-              <p>
-                Con esa base armé las 4 visualizaciones integradas (RAWGraphs, Flourish,
-                Datawrapper y Tableau), cada una formulada como una <b>pregunta</b> que
-                orienta la interpretación y sustenta las conclusiones.
-              </p>
               <p class="insight-callout">
-                <strong>Qué cambia a partir de acá:</strong> cada sección visual presenta una
-                hipótesis de lectura y un foco interpretativo distinto.
+                <strong>Limitaciones:</strong> las contribuciones en GitHub reflejan actividad
+                registrada, no esfuerzo real. El tiempo de escucha no distingue entre
+                escucha activa y música de fondo.
               </p>
             </div>
           </section>
@@ -1322,39 +1413,34 @@
           <div class="narrative-bridge" data-reveal aria-hidden="true">
             <div class="bridge-line"></div>
             <p class="bridge-text">
-              Con el dataset armado, empieza la exploración visual. Cada herramienta ofrece una
-              lente distinta para leer la misma pregunta.
+              Con el dataset integrado, cada herramienta ofrece una lente distinta
+              para leer la misma pregunta desde un ángulo diferente.
             </p>
             <div class="bridge-line"></div>
           </div>
 
           <!-- Sección RAWGraphs -->
           <section class="section rawgraph-section" data-reveal data-index="3" id="rawgraphs" aria-label="Sección RAWGraphs">
-            <p class="section-kicker">03 · Evidencia visual</p>
-            <h1>
-              <a
+            <p class="section-kicker">03 · <a
                 class="tool-link"
                 href="Graficos/RawGraphs/app-rawgraphs-io-2.svg"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Abrir RAWGraphs (rawgraphs.io) en una pestaña nueva"
-              >
-                RawGraphs.io
-              </a>
-            </h1>
-            <div class="meta">¿Qué artista se asocia más con mis días de mayor productividad?</div>
+                aria-label="Abrir RAWGraphs en una pestaña nueva"
+              >RAWGraphs</a></p>
+            <h1>¿Qué artistas acompañan mis jornadas de mayor actividad?</h1>
+            <div class="meta">Visualización estática · Distribución de artistas según nivel de contribución</div>
             <p class="section-lead">
-              Primera parada del análisis: un mapa estático que hace visible la relación entre
-              artistas escuchados y días de alto rendimiento. La clave está en buscar
-              concentraciones, no coincidencias aisladas.
+              Mapea artistas escuchados contra volumen de contribuciones.
+              ¿Algunos aparecen de forma recurrente en los días más activos?
             </p>
             <div class="content">
               <div class="viz-shell">
                 <div class="viz-header">
-                  <p class="viz-title">Qué mirar acá</p>
+                  <p class="viz-title">Cómo leer esta visualización</p>
                   <p class="viz-insight">
-                    La productividad tiende a concentrarse en ciertos géneros/artistas, más que en
-                    una distribución homogénea.
+                    Buscá concentraciones: ¿hay artistas que aparecen consistentemente en los
+                    días de mayor actividad, o la distribución es uniforme?
                   </p>
                 </div>
                 <div class="rawgraph-link" aria-label="Gráfico RawGraphs">
@@ -1383,31 +1469,26 @@
 
           <!-- Sección Flourish -->
           <section class="section embed-section" data-reveal data-index="4" id="flourish" aria-label="Sección Flourish">
-            <p class="section-kicker">04 · Hallazgos interactivos</p>
-            <h1>
-              <a
+            <p class="section-kicker">04 · <a
                 class="tool-link"
                 href="flourish-fullscreen.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Abrir Flourish en una pestaña nueva"
-              >
-                Flourish
-              </a>
-            </h1>
-            <div class="meta">¿Qué género musical se asocia más con mis días de mayor productividad?</div>
+              >Flourish</a></p>
+            <h1>¿Existe una relación entre el género musical y el nivel de actividad diaria?</h1>
+            <div class="meta">Visualización interactiva · Géneros vs. contribuciones</div>
             <p class="section-lead">
-              Si RAWGraphs muestra la foto estática, Flourish agrega movimiento. La interactividad
-              permite explorar excepciones y confirmar si los clústers iniciales resisten una
-              lectura más detallada.
+              Cambia el eje de artistas a géneros. La interactividad permite explorar
+              agrupaciones y excepciones que una vista estática no captura.
             </p>
             <div class="content">
               <div class="viz-shell">
                 <div class="viz-header">
-                  <p class="viz-title">Qué mirar acá</p>
+                  <p class="viz-title">Cómo leer esta visualización</p>
                   <p class="viz-insight">
-                    No todos los hábitos de escucha acompañan el mismo tipo de actividad: hay
-                    clústers con comportamientos diferenciados.
+                    Explorá los agrupamientos: ¿los géneros forman clústers diferenciados según
+                    nivel de actividad, o se distribuyen de forma similar?
                   </p>
                 </div>
                 <div class="viz-surface" aria-label="Embed de Flourish">
@@ -1438,21 +1519,20 @@
 
           <!-- Sección Datawrapper -->
           <section class="section embed-section" data-reveal data-index="5" id="datawrapper" aria-label="Sección Datawrapper">
-            <p class="section-kicker">05 · Comparación y contraste</p>
-            <h1>Datawrapper</h1>
-            <div class="meta">¿Qué género musical se asocia más con mis días de mayor productividad?</div>
+            <p class="section-kicker">05 · Datawrapper</p>
+            <h1>¿Cómo se distribuye la escucha a lo largo de la semana?</h1>
+            <div class="meta">Visualización sintética · Patrones temporales semanales</div>
             <p class="section-lead">
-              Hora de poner los números en perspectiva. Datawrapper sintetiza las tendencias
-              detectadas en una lectura más limpia, ideal para confirmar o descartar hipótesis
-              rápidamente.
+              Agrega una dimensión temporal: en lugar de cruzar variables directamente,
+              se enfoca en los ritmos semanales de escucha y actividad.
             </p>
             <div class="content">
               <div class="viz-shell">
                 <div class="viz-header">
-                  <p class="viz-title">Qué mirar acá</p>
+                  <p class="viz-title">Cómo leer esta visualización</p>
                   <p class="viz-insight">
-                    La semana muestra ritmos más marcados que el promedio diario y permite detectar
-                    regularidades más estables.
+                    Observá los ritmos semanales: ¿los días de mayor escucha coinciden con los
+                    de mayor actividad, o siguen lógicas distintas?
                   </p>
                 </div>
                 <div class="viz-surface viz-surface--datawrapper" aria-label="Gráfico de Datawrapper">
@@ -1495,24 +1575,22 @@
 
           <!-- Sección Tableau -->
           <section class="section embed-section" data-reveal data-index="6" id="tableau" aria-label="Sección Tableau">
-            <p class="section-kicker">06 · Cierre analítico</p>
-            <h1>Tableau</h1>
-            <div class="meta">¿Coincide mi escucha con mis días de mayor actividad en GitHub?</div>
+            <p class="section-kicker">06 · Tableau</p>
+            <h1>¿Se sostiene la relación al mirar el período completo?</h1>
+            <div class="meta">Visualización consolidada · Vista integral del dataset</div>
             <p class="section-lead">
-              Última herramienta, pregunta definitiva: ¿se sostiene la relación cuando miramos
-              el conjunto completo? Tableau permite cruzar todas las variables para una lectura
-              final consolidada.
+              Vista final. Cruza todas las variables en una sola lectura para evaluar si los
+              patrones detectados se confirman o se disuelven al mirar el conjunto.
             </p>
             <div class="content">
               <div class="viz-shell">
                 <div class="viz-header">
-                  <p class="viz-title">Qué mirar acá</p>
+                  <p class="viz-title">Cómo leer esta visualización</p>
                   <p class="viz-insight">
-                    El objetivo es validar si los patrones observados en herramientas previas
-                    convergen en una lectura consistente.
+                    Evaluá la consistencia: ¿los patrones parciales convergen en una lectura
+                    coherente del período, o aparecen contradicciones?
                   </p>
                 </div>
-                <p class="embed-hint">Reemplazá el `src` del `iframe` con tu embed de Tableau.</p>
                 <iframe class="viz-frame" title="Tableau embed" src="about:blank" loading="lazy"></iframe>
               </div>
             </div>
@@ -1521,48 +1599,43 @@
           <div class="narrative-bridge" data-reveal aria-hidden="true">
             <div class="bridge-line"></div>
             <p class="bridge-text">
-              Después de cuatro lecturas con herramientas distintas, los datos empiezan a contar
-              una historia consistente.
+              Cuatro herramientas, cuatro lecturas. Lo que sigue es una síntesis
+              de las señales más consistentes.
             </p>
             <div class="bridge-line"></div>
           </div>
 
           <section class="section" data-reveal data-index="7" id="hallazgos" aria-label="Hallazgos principales">
-            <p class="section-kicker">07 · Hallazgos principales</p>
-            <h1>Lo que revelan los datos</h1>
-            <div class="meta">Patrones clave detectados a lo largo del análisis</div>
+            <p class="section-kicker">07 · Hallazgos</p>
+            <h1>Señales y patrones</h1>
+            <div class="meta">Observaciones derivadas de la exploración visual</div>
             <p class="section-lead">
-              Antes de cerrar, estas son las señales más claras que surgieron al cruzar ambas
-              fuentes de datos.
+              Los patrones más relevantes identificados a lo largo de las cuatro visualizaciones.
             </p>
             <div class="content">
               <div class="findings-grid" data-reveal-stagger>
                 <div class="finding-card">
                   <p class="finding-number">Hallazgo 01</p>
                   <p class="finding-text">
-                    La productividad en código se concentra en ciertos artistas y géneros
-                    recurrentes, no en una distribución homogénea.
+                    Completar con el primer patrón observado en las visualizaciones.
                   </p>
                 </div>
                 <div class="finding-card">
                   <p class="finding-number">Hallazgo 02</p>
                   <p class="finding-text">
-                    Los días de mayor actividad en GitHub coinciden con sesiones de escucha más
-                    largas e ininterrumpidas.
+                    Completar con el segundo patrón observado en las visualizaciones.
                   </p>
                 </div>
                 <div class="finding-card">
                   <p class="finding-number">Hallazgo 03</p>
                   <p class="finding-text">
-                    La semana laboral muestra ritmos más marcados que el promedio diario, con picos
-                    claros de alineación música-código.
+                    Completar con el tercer patrón observado en las visualizaciones.
                   </p>
                 </div>
                 <div class="finding-card">
                   <p class="finding-number">Hallazgo 04</p>
                   <p class="finding-text">
-                    No todos los hábitos de escucha acompañan la misma actividad: hay clústers
-                    con comportamientos diferenciados según el tipo de tarea.
+                    Completar con el cuarto patrón observado en las visualizaciones.
                   </p>
                 </div>
               </div>
@@ -1570,32 +1643,22 @@
           </section>
 
           <section class="section section-closing" data-reveal id="cierre" aria-label="Cierre y conclusiones">
-            <p class="section-kicker">08 · Reflexión final</p>
-            <h1>Cierre y conclusiones</h1>
-            <div class="meta">Spotify + GitHub como narrativa integrada de productividad personal</div>
+            <p class="section-kicker">08 · Cierre</p>
+            <h1>Conclusiones</h1>
+            <div class="meta">Reflexión sobre el análisis y posibles líneas de continuidad</div>
             <p class="closing-headline">
-              La música no solo acompaña el trabajo: marca su ritmo.
+              ¿Qué podemos leer cuando cruzamos dos registros personales?
             </p>
             <div class="content">
               <p class="closing-body">
-                A lo largo de este análisis, los datos muestran que la relación entre hábitos de
-                escucha y productividad no es casual ni lineal. Aparecen patrones consistentes:
-                ciertos géneros y artistas se asocian con sesiones de mayor foco, y los ritmos
-                semanales revelan una estructura más predecible de lo esperado.
+                El objetivo fue hacer visibles patrones que, sin cruzar ambos registros,
+                permanecerían ocultos. Trabajar con datos propios enriquece la lectura pero
+                también la condiciona: las observaciones son personales y acotadas a un período.
               </p>
               <p class="closing-body">
-                Cruzar Spotify con GitHub fue una forma de convertir dos historiales personales
-                en una narrativa visual sobre cómo trabajo, cuándo me concentro y qué contexto
-                sonoro acompaña mis mejores momentos de desarrollo.
-              </p>
-              <blockquote class="closing-quote">
-                "No elegimos la música que escuchamos al trabajar por azar. Esa elección dice algo
-                sobre cómo procesamos, cómo nos concentramos y cómo producimos."
-              </blockquote>
-              <p class="closing-body">
-                Este proyecto deja una base concreta para seguir explorando: ¿qué pasa si sumamos
-                más señales — horas del día, tipo de tarea, duración de las sesiones? La pregunta
-                queda abierta, y los datos siguen ahí.
+                Lo que el análisis deja abierto es tan relevante como lo que muestra.
+                El dataset queda disponible para seguir explorando con nuevas preguntas,
+                nuevas variables o nuevas herramientas.
               </p>
             </div>
           </section>
