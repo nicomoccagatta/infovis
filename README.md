@@ -1,4 +1,6 @@
 # infovis
-(20261Q) CD.06 - Visualización de la Información - Comisión: ECD.2025.A
+(20261Q) CD.06 - Visualización de la Información - Comisión: ECD.2025.A - ITBA
 
-<img src="https://nicomoccagatta.github.io/infovis/sankey.svg" />
+
+## TP 1
+https://nicomoccagatta.github.io/infovis/TP1/Final%20data/
