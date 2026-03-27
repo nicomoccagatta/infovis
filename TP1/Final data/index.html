@@ -40,6 +40,11 @@
         scroll-padding-top: var(--topbar-h);
       }
 
+      ul {
+        list-style-type: disc;
+        margin: 0;
+      }
+
       @media (max-width: 720px) {
         body {
           /* En móviles suele ignorarse/ser incómodo `background-attachment: fixed` */
@@ -646,7 +651,7 @@
         color: rgba(233, 238, 252, 0.82);
         font-size: 1.02rem;
         line-height: 1.7;
-        width: min(66ch, 100%);
+        width: 90%;
       }
 
       .section .content > * + * {
@@ -664,7 +669,7 @@
 
       .section-lead {
         margin: 8px 0 0;
-        width: min(66ch, 100%);
+        width: 90%;
         font-size: clamp(15px, 1.35vw, 18px);
         line-height: 1.7;
         color: rgba(233, 238, 252, 0.84);
@@ -992,7 +997,6 @@
       }
 
       #datawrapper .viz-header {
-        text-align: center;
         margin-left: auto;
         margin-right: auto;
       }
@@ -1357,7 +1361,7 @@
             <h1 class="cover-title">Codeando al ritmo de Spotify</h1>
             <div class="hero-secondary">
               <p class="hero-hook">
-                El sonido detrás de mis días de código
+                El sonido detrás de mis líneas de código
               </p>
               <p class="hero-description">
                 Explorando cómo la música influye en mi productividad
@@ -1401,12 +1405,12 @@
                 visualizaciones con RAWGraphs, Flourish, Datawrapper y Tableau.
               </p>
               <p>
-                La premisa: si ambos registros comparten la misma línea de tiempo, ¿aparecen
+                La premisa: Si ambos registros comparten la misma línea de tiempo, ¿Aparecen
                 regularidades visibles al cruzarlos? El objetivo es explorar <b>co-ocurrencia</b>,
                 no probar causalidad.
               </p>
               <p class="insight-callout">
-                <strong>Alcance:</strong> datos de un único usuario y un período acotado.
+                <strong>Alcance:</strong> Datos de un único usuario y un período acotado.
                 Las observaciones son personales y exploratorias.
               </p>
             </div>
@@ -1419,7 +1423,7 @@
             <div class="meta">Fuentes, procesamiento y criterio de integración</div>
             <p class="section-lead">
               El análisis parte de dos fuentes independientes que se integran a través de una
-              clave temporal común: la fecha.
+              clave temporal común: La fecha.
             </p>
             <div class="content">
               <div class="data-sources">
@@ -1427,13 +1431,13 @@
                   <p class="data-source-label">Fuente 1 · Spotify</p>
                   <p class="data-source-desc">
                     Historial de reproducción exportado y agregado por día:
-                    artista más escuchado, género predominante y minutos totales.
+                    Artista más escuchado, género predominante y minutos totales.
                   </p>
                 </div>
                 <div class="data-source">
                   <p class="data-source-label">Fuente 2 · GitHub</p>
                   <p class="data-source-desc">
-                    Contribuciones diarias (commits, pull requests, revisiones).
+                    Contribuciones diarias (commits, pull requests, etc.).
                     Indicador aproximado de actividad de desarrollo.
                   </p>
                 </div>
@@ -1456,7 +1460,7 @@
                 </a>
               </p>
               <p class="insight-callout">
-                <strong>Limitaciones:</strong> las contribuciones en GitHub reflejan actividad
+                <strong>Limitaciones:</strong> Las contribuciones en GitHub reflejan actividad
                 registrada, no esfuerzo real. El tiempo de escucha no distingue entre
                 escucha activa y música de fondo.
               </p>
@@ -1468,6 +1472,7 @@
             <p class="bridge-text">
               Con el dataset integrado, cada herramienta ofrece una lente distinta
               para leer la misma pregunta desde un ángulo diferente.
+              <u><strong>¿Hay una relación entre la música y mi productividad?</strong></u>
             </p>
             <div class="bridge-line"></div>
           </div>
@@ -1475,20 +1480,19 @@
           <!-- Sección RAWGraphs -->
           <section class="section rawgraph-section" data-reveal data-index="3" id="rawgraphs" aria-label="Sección RAWGraphs">
             <p class="section-kicker">03 · RAWGraphs</p>
-            <h1>¿Qué artistas acompañan mis jornadas de mayor actividad?</h1>
-            <div class="meta">Visualización estática · Distribución de artistas según nivel de contribución</div>
+            <h1>¿Qué artistas y/o generos musicales acompañan mis jornadas de mayor actividad?</h1>
             <p class="section-lead">
-              Mapea artistas escuchados contra volumen de contribuciones.
-              ¿Algunos aparecen de forma recurrente en los días más activos?
+              Utilizamos un Bubble Chart para visualizar la relación entre artistas y/o géneros musicales escuchados y volumen de contribuciones.
             </p>
             <div class="content">
               <div class="viz-shell">
                 <div class="viz-header">
                   <p class="viz-title">Cómo leer esta visualización</p>
-                  <p class="viz-insight">
-                    Buscá concentraciones: ¿hay artistas que aparecen consistentemente en los
-                    días de mayor actividad, o la distribución es uniforme?
-                  </p>
+                  <ul>
+                    <li>Sobre el eje X: Fecha de la contribución.</li>
+                    <li>Sobre el eje Y: Cantidad de contribuciones realizadas ese día.</li>
+                    <li>Tamaño del bubble: Tiempo escuchado de ese artista en ese día.</li>
+                  </ul>
                 </div>
                 <div class="rawgraph-link" aria-label="Gráfico RawGraphs">
                   <img
@@ -1518,19 +1522,18 @@
           <section class="section embed-section" data-reveal data-index="4" id="flourish" aria-label="Sección Flourish">
             <p class="section-kicker">04 · Flourish</p>
             <h1>¿Existe una relación entre el género musical y el nivel de actividad diaria?</h1>
-            <div class="meta">Visualización interactiva · Géneros vs. contribuciones</div>
             <p class="section-lead">
-              Cambia el eje de artistas a géneros. La interactividad permite explorar
-              agrupaciones y excepciones que una vista estática no captura.
+              Utilizamos un Scatter Plot para visualizar la relación entre géneros musicales y volumen de contribuciones.
             </p>
             <div class="content">
               <div class="viz-shell">
                 <div class="viz-header">
                   <p class="viz-title">Cómo leer esta visualización</p>
-                  <p class="viz-insight">
-                    Explorá los agrupamientos: ¿los géneros forman clústers diferenciados según
-                    nivel de actividad, o se distribuyen de forma similar?
-                  </p>
+                  <ul>
+                    <li>Sobre el eje X: Minutos reproducidos de ese artista ese día.</li>
+                    <li>Sobre el eje Y: Cantidad de contribuciones realizadas ese día.</li>
+                    <li>Se agrega una línea de tendencia por género musical para identificar si cada género presenta una tendencia distinta de productividad.</li>
+                  </ul>
                 </div>
                 <div class="viz-surface" aria-label="Embed de Flourish">
                   <a
@@ -1558,20 +1561,20 @@
           <!-- Sección Datawrapper -->
           <section class="section embed-section" data-reveal data-index="5" id="datawrapper" aria-label="Sección Datawrapper">
             <p class="section-kicker">05 · Datawrapper</p>
-            <h1>¿Cómo se distribuye la escucha a lo largo de la semana?</h1>
-            <div class="meta">Visualización sintética · Patrones temporales semanales</div>
+            <h1>¿Cómo se distribuye la escucha a lo largo del año?</h1>
             <p class="section-lead">
-              Agrega una dimensión temporal: en lugar de cruzar variables directamente,
-              se enfoca en los ritmos semanales de escucha y actividad.
+              Volvemos a utilizar un scatter plot, pero esta vez para visualizar la cantidad de días que se escucha cada artista o género musical a lo largo del año, en relación a
+              la cantidad de contribuciones realizadas ese día para ese artista o género musical.
             </p>
             <div class="content">
               <div class="viz-shell">
                 <div class="viz-header">
                   <p class="viz-title">Cómo leer esta visualización</p>
-                  <p class="viz-insight">
-                    Observá los ritmos semanales: ¿los días de mayor escucha coinciden con los
-                    de mayor actividad, o siguen lógicas distintas?
-                  </p>
+                  <ul>
+                    <li>Sobre el eje X: Cantidad de días que se escucho ese artista en ese año.</li>
+                    <li>Sobre el eje Y: Promedio de contribuciones realizadas por ese artista en ese año.</li>
+                    <li>Se quitaron del análisis los días con cero contribuciones.</li>
+                  </ul>
                 </div>
                 <div class="viz-surface viz-surface--datawrapper" aria-label="Gráfico de Datawrapper">
                   <div class="datawrapper-gallery">
@@ -1590,7 +1593,7 @@
                         />
                       </a>
                       <figcaption class="datawrapper-caption">
-                        Promedio de commits por género (sin días con 0 commits).
+                        Promedio de contribuciones por género (sin días con 0 contribuciones).
                       </figcaption>
                     </figure>
                     <figure class="datawrapper-card">
@@ -1608,7 +1611,7 @@
                         />
                       </a>
                       <figcaption class="datawrapper-caption">
-                        Promedio de commits por artista (sin días con 0 commits).
+                        Promedio de contribuciones por artista (sin días con 0 contribuciones).
                       </figcaption>
                     </figure>
                   </div>
