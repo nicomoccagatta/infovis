@@ -1,0 +1,246 @@
+date,day_of_week,commits,top_artist,genero_musical,artist_minutesPlayed
+2025-03-17,lunes,8,Bad Bunny,Trap,50.11
+2025-03-18,martes,4,Bad Bunny,Trap,91.32
+2025-03-19,miércoles,6,Bad Bunny,Trap,60.97
+2025-03-20,jueves,2,KAROL G,Reggaeton,25.42
+2025-03-21,viernes,10,Bad Bunny,Trap,16.19
+2025-03-24,lunes,9,Bad Bunny,Trap,73.25
+2025-03-25,martes,9,Bad Bunny,Trap,111.92
+2025-03-26,miércoles,7,Bad Bunny,Trap,39.03
+2025-03-27,jueves,7,Bad Bunny,Trap,124.41
+2025-03-28,viernes,21,KAROL G,Reggaeton,39.99
+2025-03-31,lunes,9,Bad Bunny,Trap,25.6
+2025-04-01,martes,7,Bad Bunny,Trap,63.04
+2025-04-02,miércoles,4,Shakira,Pop,54.32
+2025-04-03,jueves,7,La T y La M,Cumbia,162.64
+2025-04-04,viernes,15,Bad Bunny,Trap,25.68
+2025-04-07,lunes,8,La T y La M,Cumbia,33.01
+2025-04-08,martes,7,La T y La M,Cumbia,40.82
+2025-04-09,miércoles,6,Bad Bunny,Trap,171.61
+2025-04-10,jueves,7,Bad Bunny,Trap,151.31
+2025-04-11,viernes,8,Korolova,Electronic,37.68
+2025-04-12,sábado,1,Bad Bunny,Trap,21.64
+2025-04-14,lunes,8,Shakira,Pop,220.48
+2025-04-15,martes,8,The La Planta,Cumbia,88.13
+2025-04-16,miércoles,4,The La Planta,Cumbia,100.19
+2025-04-17,jueves,11,Bad Bunny,Trap,184.78
+2025-04-18,viernes,3,Bad Bunny,Trap,88.44
+2025-04-21,lunes,10,KAROL G,Reggaeton,15.96
+2025-04-22,martes,3,Luck Ra,Cumbia,169.83
+2025-04-23,miércoles,7,Luck Ra,Cumbia,35.6
+2025-04-24,jueves,4,Bad Bunny,Trap,102.02
+2025-04-25,viernes,6,ARTBAT,Electronic,88.04
+2025-04-27,domingo,6,Luck Ra,Cumbia,99.91
+2025-04-28,lunes,8,Maty Deejay,Electronic,76.49
+2025-04-29,martes,11,Maty Deejay,Electronic,45.96
+2025-04-30,miércoles,8,Fran Laborde,Rock,43.25
+2025-05-01,jueves,3,Bad Bunny,Trap,50.43
+2025-05-02,viernes,10,Bad Bunny,Trap,81.05
+2025-05-05,lunes,4,KAROL G,Reggaeton,16.54
+2025-05-06,martes,5,Bad Bunny,Trap,25.7
+2025-05-07,miércoles,8,Maty Deejay,Electronic,34.05
+2025-05-08,jueves,9,Fran Laborde,Rock,44.08
+2025-05-09,viernes,4,Wade,Electronic,114.88
+2025-05-12,lunes,6,Las Pastillas del Abuelo,Rock,248.27
+2025-05-14,miércoles,7,Beéle,Latin Pop,22.48
+2025-05-15,jueves,6,Feid,Reggaeton,47.1
+2025-05-16,viernes,1,Bad Bunny,Trap,71.78
+2025-05-18,domingo,4,Bad Bunny,Trap,88.58
+2025-05-19,lunes,8,Bad Bunny,Trap,76.23
+2025-05-20,martes,14,Los Piojos,Rock,228.89
+2025-05-21,miércoles,15,Los Piojos,Rock,119.83
+2025-05-22,jueves,7,Manuel Turizo,Reggaeton,139.44
+2025-05-23,viernes,15,Bad Bunny,Trap,30.29
+2025-05-26,lunes,10,Maty Deejay,Electronic,43.63
+2025-05-27,martes,13,Bad Bunny,Trap,90.74
+2025-05-28,miércoles,10,El Kuelgue,Rock,120.69
+2025-05-29,jueves,16,J Balvin,Reggaeton,83.62
+2025-05-30,viernes,8,Los Piojos,Rock,313.99
+2025-06-02,lunes,3,Los Piojos,Rock,44.29
+2025-06-03,martes,9,Mau P,Electronic,31.75
+2025-06-04,miércoles,5,J Balvin,Reggaeton,50.46
+2025-06-05,jueves,7,Callejeros,Rock,98.73
+2025-06-06,viernes,12,Los Piojos,Rock,329.81
+2025-06-09,lunes,5,Bad Bunny,Trap,103.49
+2025-06-10,martes,13,Bad Bunny,Trap,34.2
+2025-06-11,miércoles,6,Bad Bunny,Trap,71.23
+2025-06-12,jueves,16,Bad Bunny,Trap,76.31
+2025-06-13,viernes,7,Bad Bunny,Trap,32.44
+2025-06-16,lunes,6,Bad Bunny,Trap,83.94
+2025-06-17,martes,11,Rauw Alejandro,Reggaeton,18.41
+2025-06-18,miércoles,13,Maty Deejay,Electronic,29.45
+2025-06-19,jueves,7,Bad Bunny,Trap,25.16
+2025-06-20,viernes,8,Bad Bunny,Trap,16.57
+2025-06-23,lunes,14,Bad Bunny,Trap,19.65
+2025-06-24,martes,11,Bad Bunny,Trap,44.82
+2025-06-25,miércoles,21,Las Pastillas del Abuelo,Rock,45.11
+2025-06-26,jueves,20,PAWSA,Electronic,51.63
+2025-06-27,viernes,7,Maluma,Reggaeton,18.58
+2025-06-30,lunes,19,Bad Bunny,Trap,29.88
+2025-07-01,martes,4,Justin Quiles,Reggaeton,81.49
+2025-07-02,miércoles,18,Bad Bunny,Trap,53.26
+2025-07-03,jueves,3,Bad Bunny,Trap,42.06
+2025-07-04,viernes,10,Bad Bunny,Trap,48.6
+2025-07-07,lunes,15,Bad Bunny,Trap,39.76
+2025-07-08,martes,10,J Balvin,Reggaeton,46.23
+2025-07-09,miércoles,3,Ke Personajes,Cumbia,34.72
+2025-07-10,jueves,8,Big One,Trap,55.94
+2025-07-11,viernes,6,Max Carra,Electronic,26.67
+2025-07-14,lunes,3,Bad Bunny,Trap,126.52
+2025-07-15,martes,10,Ke Personajes,Cumbia,38.14
+2025-07-16,miércoles,9,Bad Bunny,Trap,44.13
+2025-07-17,jueves,6,Bad Bunny,Trap,40.45
+2025-07-18,viernes,1,Shakira,Pop,75.93
+2025-07-29,martes,7,KAROL G,Reggaeton,10.92
+2025-07-30,miércoles,6,Marshmello,Electronic,0.85
+2025-07-31,jueves,3,Bad Bunny,Trap,87.63
+2025-08-01,viernes,4,Bad Bunny,Trap,156.85
+2025-08-04,lunes,5,Bad Bunny,Trap,207.76
+2025-08-05,martes,8,Bad Bunny,Trap,100.18
+2025-08-06,miércoles,6,Las Pastillas del Abuelo,Rock,129.16
+2025-08-07,jueves,1,Bad Bunny,Trap,89.75
+2025-08-08,viernes,1,Bad Bunny,Trap,75.9
+2025-08-11,lunes,7,Bad Bunny,Trap,55.41
+2025-08-12,martes,9,Duki,Trap,51.62
+2025-08-13,miércoles,18,Bad Bunny,Trap,30.38
+2025-08-14,jueves,3,La T y La M,Cumbia,78.38
+2025-08-15,viernes,11,Beéle,Latin Pop,16.67
+2025-08-18,lunes,4,Justin Bieber,Pop,26.77
+2025-08-19,martes,8,Babasonicos,Rock,40.2
+2025-08-20,miércoles,8,Duki,Trap,29.34
+2025-08-21,jueves,2,Myke Towers,Reggaeton,9.76
+2025-08-22,viernes,2,Las Pastillas del Abuelo,Rock,171.57
+2025-08-25,lunes,5,KAROL G,Reggaeton,24.93
+2025-08-26,martes,6,KAROL G,Reggaeton,24.75
+2025-08-27,miércoles,5,KAROL G,Reggaeton,54.96
+2025-08-28,jueves,4,La T y La M,Cumbia,92.83
+2025-08-29,viernes,11,La T y La M,Cumbia,74.86
+2025-09-01,lunes,7,La T y La M,Cumbia,117.7
+2025-09-02,martes,6,La T y La M,Cumbia,120.55
+2025-09-03,miércoles,7,PAWSA,Electronic,33.13
+2025-09-04,jueves,8,PAWSA,Electronic,313.26
+2025-09-05,viernes,12,John Summit,Electronic,30.87
+2025-09-08,lunes,2,Bad Bunny,Trap,27.84
+2025-09-09,martes,1,La T y La M,Cumbia,116.15
+2025-09-10,miércoles,2,La T y La M,Cumbia,181.98
+2025-09-11,jueves,6,La T y La M,Cumbia,26.02
+2025-09-15,lunes,7,Bad Bunny,Trap,33.55
+2025-09-16,martes,4,Myke Towers,Reggaeton,29.3
+2025-09-17,miércoles,5,FISHER,Electronic,43.52
+2025-09-18,jueves,3,La T y La M,Cumbia,208.97
+2025-09-19,viernes,6,Eli Brown,Electronic,67.89
+2025-09-22,lunes,8,Blessd,Reggaeton,12.06
+2025-09-23,martes,5,Anyma,Electronic,58.5
+2025-09-24,miércoles,9,Anyma,Electronic,20.33
+2025-09-25,jueves,1,La T y La M,Cumbia,128.55
+2025-09-26,viernes,7,Bad Bunny,Trap,217.71
+2025-09-27,sábado,24,La T y La M,Cumbia,107.37
+2025-09-29,lunes,2,Bad Bunny,Trap,252.5
+2025-09-30,martes,3,Bad Bunny,Trap,96.28
+2025-10-01,miércoles,10,Ke Personajes,Cumbia,53.36
+2025-10-02,jueves,12,Eladio Carrion,Trap,24.3
+2025-10-03,viernes,4,Eladio Carrion,Trap,64.5
+2025-10-06,lunes,8,Eladio Carrion,Trap,36.19
+2025-10-07,martes,4,Eladio Carrion,Trap,39.16
+2025-10-08,miércoles,7,Bad Bunny,Trap,41.5
+2025-10-09,jueves,2,Big One,Trap,29.48
+2025-10-10,viernes,5,Myke Towers,Reggaeton,13.9
+2025-10-13,lunes,10,La T y La M,Cumbia,93.7
+2025-10-14,martes,6,La T y La M,Cumbia,151.88
+2025-10-15,miércoles,9,La T y La M,Cumbia,239.72
+2025-10-16,jueves,8,La T y La M,Cumbia,290.25
+2025-10-17,viernes,2,La T y La M,Cumbia,169.32
+2025-10-20,lunes,1,La T y La M,Cumbia,136.26
+2025-10-21,martes,3,Maluma,Reggaeton,199.58
+2025-10-22,miércoles,2,Maluma,Reggaeton,183.55
+2025-10-23,jueves,6,Maluma,Reggaeton,120.7
+2025-10-24,viernes,5,Maluma,Reggaeton,38.2
+2025-10-27,lunes,3,Maluma,Reggaeton,102.61
+2025-10-29,miércoles,7,Ke Personajes,Cumbia,58.01
+2025-10-30,jueves,15,La T y La M,Cumbia,51.1
+2025-10-31,viernes,3,Bizarrap,Trap,131.83
+2025-11-03,lunes,3,Maluma,Reggaeton,31.05
+2025-11-04,martes,5,Airbag,Rock,18.31
+2025-11-05,miércoles,14,Rauw Alejandro,Reggaeton,42.99
+2025-11-06,jueves,10,Rauw Alejandro,Reggaeton,37.17
+2025-11-07,viernes,4,The La Planta,Cumbia,58.64
+2025-11-10,lunes,3,The La Planta,Cumbia,111.85
+2025-11-11,martes,2,The La Planta,Cumbia,69.36
+2025-11-12,miércoles,6,The La Planta,Cumbia,96.4
+2025-11-13,jueves,7,The La Planta,Cumbia,73.68
+2025-11-14,viernes,2,The La Planta,Cumbia,86.8
+2025-11-17,lunes,9,The La Planta,Cumbia,92.81
+2025-11-18,martes,3,The La Planta,Cumbia,50.46
+2025-11-19,miércoles,8,The La Planta,Cumbia,93.15
+2025-11-20,jueves,8,Maluma,Reggaeton,79.59
+2025-11-21,viernes,12,Maluma,Reggaeton,79.15
+2025-11-24,lunes,6,Bad Bunny,Trap,62.38
+2025-11-25,martes,5,Bad Bunny,Trap,129.84
+2025-11-26,miércoles,10,Bad Bunny,Trap,66.86
+2025-11-27,jueves,6,La T y La M,Cumbia,52.48
+2025-11-28,viernes,1,Hernan y La Champion's Liga,Cumbia,27.19
+2025-12-01,lunes,5,Bad Bunny,Trap,27.7
+2025-12-02,martes,11,Beéle,Latin Pop,33.36
+2025-12-03,miércoles,7,Nico Morano,Electronic,23.1
+2025-12-04,jueves,2,Maz,Electronic,42.32
+2025-12-05,viernes,3,KAROL G,Reggaeton,15.92
+2025-12-09,martes,6,La Nueva Luna,Cumbia,43.98
+2025-12-10,miércoles,4,Maluma,Reggaeton,96.48
+2025-12-11,jueves,6,Danny Tenaglia,Electronic,54.01
+2025-12-12,viernes,13,Cumbia rocha,Cumbia,61.4
+2025-12-13,sábado,1,PAWSA,Electronic,22.19
+2025-12-15,lunes,10,Rauw Alejandro,Reggaeton,28.43
+2025-12-16,martes,7,Cumbia rocha,Cumbia,92.9
+2025-12-17,miércoles,9,Cumbia rocha,Cumbia,85.56
+2025-12-18,jueves,7,The La Planta,Cumbia,48.12
+2025-12-19,viernes,6,Treekoo,Electronic,64.32
+2025-12-22,lunes,6,Intoxicados,Rock,100.86
+2025-12-23,martes,9,Cumbia rocha,Cumbia,44.95
+2025-12-26,viernes,5,PAWSA,Electronic,12.56
+2025-12-28,domingo,8,Cumbia rocha,Cumbia,9.16
+2025-12-29,lunes,7,Bad Bunny,Trap,18.25
+2025-12-30,martes,15,The La Planta,Cumbia,50.01
+2025-12-31,miércoles,9,Bad Bunny,Trap,10.65
+2026-01-02,viernes,5,Justin Quiles,Reggaeton,34.44
+2026-01-04,domingo,8,RÜFÜS DU SOL,Electronic,40.42
+2026-01-05,lunes,16,Cumbia rocha,Cumbia,61.38
+2026-01-06,martes,13,La T y La M,Cumbia,67.69
+2026-01-07,miércoles,8,Bad Bunny,Trap,393.58
+2026-01-08,jueves,10,J Balvin,Reggaeton,82.04
+2026-01-09,viernes,11,Bad Bunny,Trap,375.9
+2026-01-19,lunes,1,TINI,Pop,111.27
+2026-01-20,martes,8,Justin Bieber,Pop,195.48
+2026-01-21,miércoles,4,J Balvin,Reggaeton,41.59
+2026-01-22,jueves,6,Cumbia rocha,Cumbia,176.5
+2026-01-23,viernes,5,Cumbia rocha,Cumbia,166.92
+2026-01-26,lunes,4,Cumbia rocha,Cumbia,68.14
+2026-01-27,martes,9,La T y La M,Cumbia,41.21
+2026-01-28,miércoles,4,HUGEL,Electronic,43.66
+2026-01-29,jueves,2,TINI,Pop,99.65
+2026-01-30,viernes,5,La T y La M,Cumbia,77.57
+2026-02-02,lunes,6,Daddy Yankee,Reggaeton,31.37
+2026-02-03,martes,1,RÜFÜS DU SOL,Electronic,53.79
+2026-02-04,miércoles,10,Bad Bunny,Trap,71.45
+2026-02-05,jueves,4,Bad Bunny,Trap,80.39
+2026-02-06,viernes,12,Bad Bunny,Trap,67.74
+2026-02-09,lunes,10,La T y La M,Cumbia,95.28
+2026-02-10,martes,13,Migrantes,Cumbia,15.56
+2026-02-11,miércoles,5,Luis Alberto Spinetta,Rock,186.25
+2026-02-12,jueves,2,Cumbia rocha,Cumbia,43.87
+2026-02-13,viernes,3,Cumbia rocha,Cumbia,11.04
+2026-02-16,lunes,6,RÜFÜS DU SOL,Electronic,17.23
+2026-02-17,martes,4,Arcángel,Reggaeton,26.49
+2026-02-18,miércoles,7,RÜFÜS DU SOL,Electronic,29.86
+2026-02-19,jueves,9,RÜFÜS DU SOL,Electronic,30.75
+2026-02-20,viernes,1,Bad Bunny,Trap,94.14
+2026-03-02,lunes,12,Bad Bunny,Trap,60.17
+2026-03-03,martes,6,RÜFÜS DU SOL,Electronic,31.61
+2026-03-04,miércoles,7,RÜFÜS DU SOL,Electronic,37.62
+2026-03-05,jueves,8,Jamiroquai,Funk,37.89
+2026-03-06,viernes,12,Lucca Saettone,Electronic,28.0
+2026-03-07,sábado,8,Swedish House Mafia,Electronic,16.62
+2026-03-09,lunes,12,Babasonicos,Rock,52.87
+2026-03-10,martes,17,Bad Bunny,Trap,66.69
+2026-03-11,miércoles,13,RÜFÜS DU SOL,Electronic,13.0
+2026-03-12,jueves,11,PAWSA,Electronic,112.45
+2026-03-13,viernes,6,PAWSA,Electronic,117.81

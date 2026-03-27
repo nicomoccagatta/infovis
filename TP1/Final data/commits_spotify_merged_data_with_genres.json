@@ -1,6 +1,7 @@
 [
   {
     "date": "2025-03-11",
+    "day_of_week": "martes",
     "commits": 0,
     "top_artist": "J Balvin",
     "genero_musical": "Reggaeton",
@@ -8,6 +9,7 @@
   },
   {
     "date": "2025-03-13",
+    "day_of_week": "jueves",
     "commits": 0,
     "top_artist": "The Academy: Segunda Misión",
     "genero_musical": "Trap",
@@ -15,6 +17,7 @@
   },
   {
     "date": "2025-03-14",
+    "day_of_week": "viernes",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -22,6 +25,7 @@
   },
   {
     "date": "2025-03-15",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -29,6 +33,7 @@
   },
   {
     "date": "2025-03-16",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -36,6 +41,7 @@
   },
   {
     "date": "2025-03-17",
+    "day_of_week": "lunes",
     "commits": 8,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -43,6 +49,7 @@
   },
   {
     "date": "2025-03-18",
+    "day_of_week": "martes",
     "commits": 4,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -50,6 +57,7 @@
   },
   {
     "date": "2025-03-19",
+    "day_of_week": "miércoles",
     "commits": 6,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -57,6 +65,7 @@
   },
   {
     "date": "2025-03-20",
+    "day_of_week": "jueves",
     "commits": 2,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -64,6 +73,7 @@
   },
   {
     "date": "2025-03-21",
+    "day_of_week": "viernes",
     "commits": 10,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -71,6 +81,7 @@
   },
   {
     "date": "2025-03-22",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Justin Timberlake",
     "genero_musical": "Pop",
@@ -78,6 +89,7 @@
   },
   {
     "date": "2025-03-23",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -85,6 +97,7 @@
   },
   {
     "date": "2025-03-24",
+    "day_of_week": "lunes",
     "commits": 9,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -92,6 +105,7 @@
   },
   {
     "date": "2025-03-25",
+    "day_of_week": "martes",
     "commits": 9,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -99,6 +113,7 @@
   },
   {
     "date": "2025-03-26",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -106,6 +121,7 @@
   },
   {
     "date": "2025-03-27",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -113,6 +129,7 @@
   },
   {
     "date": "2025-03-28",
+    "day_of_week": "viernes",
     "commits": 21,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -120,6 +137,7 @@
   },
   {
     "date": "2025-03-29",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -127,6 +145,7 @@
   },
   {
     "date": "2025-03-30",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Q' Lokura",
     "genero_musical": "Cumbia",
@@ -134,6 +153,7 @@
   },
   {
     "date": "2025-03-31",
+    "day_of_week": "lunes",
     "commits": 9,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -141,6 +161,7 @@
   },
   {
     "date": "2025-04-01",
+    "day_of_week": "martes",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -148,6 +169,7 @@
   },
   {
     "date": "2025-04-02",
+    "day_of_week": "miércoles",
     "commits": 4,
     "top_artist": "Shakira",
     "genero_musical": "Pop",
@@ -155,6 +177,7 @@
   },
   {
     "date": "2025-04-03",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -162,6 +185,7 @@
   },
   {
     "date": "2025-04-04",
+    "day_of_week": "viernes",
     "commits": 15,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -169,6 +193,7 @@
   },
   {
     "date": "2025-04-05",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Cloonee",
     "genero_musical": "Electronic",
@@ -176,6 +201,7 @@
   },
   {
     "date": "2025-04-06",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Luck Ra",
     "genero_musical": "Cumbia",
@@ -183,6 +209,7 @@
   },
   {
     "date": "2025-04-07",
+    "day_of_week": "lunes",
     "commits": 8,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -190,6 +217,7 @@
   },
   {
     "date": "2025-04-08",
+    "day_of_week": "martes",
     "commits": 7,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -197,6 +225,7 @@
   },
   {
     "date": "2025-04-09",
+    "day_of_week": "miércoles",
     "commits": 6,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -204,6 +233,7 @@
   },
   {
     "date": "2025-04-10",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -211,6 +241,7 @@
   },
   {
     "date": "2025-04-11",
+    "day_of_week": "viernes",
     "commits": 8,
     "top_artist": "Korolova",
     "genero_musical": "Electronic",
@@ -218,6 +249,7 @@
   },
   {
     "date": "2025-04-12",
+    "day_of_week": "sábado",
     "commits": 1,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -225,6 +257,7 @@
   },
   {
     "date": "2025-04-13",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -232,6 +265,7 @@
   },
   {
     "date": "2025-04-14",
+    "day_of_week": "lunes",
     "commits": 8,
     "top_artist": "Shakira",
     "genero_musical": "Pop",
@@ -239,6 +273,7 @@
   },
   {
     "date": "2025-04-15",
+    "day_of_week": "martes",
     "commits": 8,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -246,6 +281,7 @@
   },
   {
     "date": "2025-04-16",
+    "day_of_week": "miércoles",
     "commits": 4,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -253,6 +289,7 @@
   },
   {
     "date": "2025-04-17",
+    "day_of_week": "jueves",
     "commits": 11,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -260,6 +297,7 @@
   },
   {
     "date": "2025-04-18",
+    "day_of_week": "viernes",
     "commits": 3,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -267,6 +305,7 @@
   },
   {
     "date": "2025-04-19",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Catz 'n Dogz",
     "genero_musical": "Electronic",
@@ -274,6 +313,7 @@
   },
   {
     "date": "2025-04-20",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Anyma",
     "genero_musical": "Electronic",
@@ -281,6 +321,7 @@
   },
   {
     "date": "2025-04-21",
+    "day_of_week": "lunes",
     "commits": 10,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -288,6 +329,7 @@
   },
   {
     "date": "2025-04-22",
+    "day_of_week": "martes",
     "commits": 3,
     "top_artist": "Luck Ra",
     "genero_musical": "Cumbia",
@@ -295,6 +337,7 @@
   },
   {
     "date": "2025-04-23",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "Luck Ra",
     "genero_musical": "Cumbia",
@@ -302,6 +345,7 @@
   },
   {
     "date": "2025-04-24",
+    "day_of_week": "jueves",
     "commits": 4,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -309,6 +353,7 @@
   },
   {
     "date": "2025-04-25",
+    "day_of_week": "viernes",
     "commits": 6,
     "top_artist": "ARTBAT",
     "genero_musical": "Electronic",
@@ -316,6 +361,7 @@
   },
   {
     "date": "2025-04-26",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Claptone",
     "genero_musical": "Electronic",
@@ -323,6 +369,7 @@
   },
   {
     "date": "2025-04-27",
+    "day_of_week": "domingo",
     "commits": 6,
     "top_artist": "Luck Ra",
     "genero_musical": "Cumbia",
@@ -330,6 +377,7 @@
   },
   {
     "date": "2025-04-28",
+    "day_of_week": "lunes",
     "commits": 8,
     "top_artist": "Maty Deejay",
     "genero_musical": "Electronic",
@@ -337,6 +385,7 @@
   },
   {
     "date": "2025-04-29",
+    "day_of_week": "martes",
     "commits": 11,
     "top_artist": "Maty Deejay",
     "genero_musical": "Electronic",
@@ -344,6 +393,7 @@
   },
   {
     "date": "2025-04-30",
+    "day_of_week": "miércoles",
     "commits": 8,
     "top_artist": "Fran Laborde",
     "genero_musical": "Rock",
@@ -351,6 +401,7 @@
   },
   {
     "date": "2025-05-01",
+    "day_of_week": "jueves",
     "commits": 3,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -358,6 +409,7 @@
   },
   {
     "date": "2025-05-02",
+    "day_of_week": "viernes",
     "commits": 10,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -365,6 +417,7 @@
   },
   {
     "date": "2025-05-03",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Tomi Reig",
     "genero_musical": "Electronic",
@@ -372,6 +425,7 @@
   },
   {
     "date": "2025-05-04",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -379,6 +433,7 @@
   },
   {
     "date": "2025-05-05",
+    "day_of_week": "lunes",
     "commits": 4,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -386,6 +441,7 @@
   },
   {
     "date": "2025-05-06",
+    "day_of_week": "martes",
     "commits": 5,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -393,6 +449,7 @@
   },
   {
     "date": "2025-05-07",
+    "day_of_week": "miércoles",
     "commits": 8,
     "top_artist": "Maty Deejay",
     "genero_musical": "Electronic",
@@ -400,6 +457,7 @@
   },
   {
     "date": "2025-05-08",
+    "day_of_week": "jueves",
     "commits": 9,
     "top_artist": "Fran Laborde",
     "genero_musical": "Rock",
@@ -407,6 +465,7 @@
   },
   {
     "date": "2025-05-09",
+    "day_of_week": "viernes",
     "commits": 4,
     "top_artist": "Wade",
     "genero_musical": "Electronic",
@@ -414,6 +473,7 @@
   },
   {
     "date": "2025-05-10",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Fran Laborde",
     "genero_musical": "Rock",
@@ -421,6 +481,7 @@
   },
   {
     "date": "2025-05-11",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Tomi Reig",
     "genero_musical": "Electronic",
@@ -428,6 +489,7 @@
   },
   {
     "date": "2025-05-12",
+    "day_of_week": "lunes",
     "commits": 6,
     "top_artist": "Las Pastillas del Abuelo",
     "genero_musical": "Rock",
@@ -435,6 +497,7 @@
   },
   {
     "date": "2025-05-13",
+    "day_of_week": "martes",
     "commits": 0,
     "top_artist": "Babasonicos",
     "genero_musical": "Rock",
@@ -442,6 +505,7 @@
   },
   {
     "date": "2025-05-14",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "Beéle",
     "genero_musical": "Latin Pop",
@@ -449,6 +513,7 @@
   },
   {
     "date": "2025-05-15",
+    "day_of_week": "jueves",
     "commits": 6,
     "top_artist": "Feid",
     "genero_musical": "Reggaeton",
@@ -456,6 +521,7 @@
   },
   {
     "date": "2025-05-16",
+    "day_of_week": "viernes",
     "commits": 1,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -463,6 +529,7 @@
   },
   {
     "date": "2025-05-17",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -470,6 +537,7 @@
   },
   {
     "date": "2025-05-18",
+    "day_of_week": "domingo",
     "commits": 4,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -477,6 +545,7 @@
   },
   {
     "date": "2025-05-19",
+    "day_of_week": "lunes",
     "commits": 8,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -484,6 +553,7 @@
   },
   {
     "date": "2025-05-20",
+    "day_of_week": "martes",
     "commits": 14,
     "top_artist": "Los Piojos",
     "genero_musical": "Rock",
@@ -491,6 +561,7 @@
   },
   {
     "date": "2025-05-21",
+    "day_of_week": "miércoles",
     "commits": 15,
     "top_artist": "Los Piojos",
     "genero_musical": "Rock",
@@ -498,6 +569,7 @@
   },
   {
     "date": "2025-05-22",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "Manuel Turizo",
     "genero_musical": "Reggaeton",
@@ -505,6 +577,7 @@
   },
   {
     "date": "2025-05-23",
+    "day_of_week": "viernes",
     "commits": 15,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -512,6 +585,7 @@
   },
   {
     "date": "2025-05-24",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -519,6 +593,7 @@
   },
   {
     "date": "2025-05-25",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -526,6 +601,7 @@
   },
   {
     "date": "2025-05-26",
+    "day_of_week": "lunes",
     "commits": 10,
     "top_artist": "Maty Deejay",
     "genero_musical": "Electronic",
@@ -533,6 +609,7 @@
   },
   {
     "date": "2025-05-27",
+    "day_of_week": "martes",
     "commits": 13,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -540,6 +617,7 @@
   },
   {
     "date": "2025-05-28",
+    "day_of_week": "miércoles",
     "commits": 10,
     "top_artist": "El Kuelgue",
     "genero_musical": "Rock",
@@ -547,6 +625,7 @@
   },
   {
     "date": "2025-05-29",
+    "day_of_week": "jueves",
     "commits": 16,
     "top_artist": "J Balvin",
     "genero_musical": "Reggaeton",
@@ -554,6 +633,7 @@
   },
   {
     "date": "2025-05-30",
+    "day_of_week": "viernes",
     "commits": 8,
     "top_artist": "Los Piojos",
     "genero_musical": "Rock",
@@ -561,6 +641,7 @@
   },
   {
     "date": "2025-05-31",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Los Piojos",
     "genero_musical": "Rock",
@@ -568,6 +649,7 @@
   },
   {
     "date": "2025-06-01",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -575,6 +657,7 @@
   },
   {
     "date": "2025-06-02",
+    "day_of_week": "lunes",
     "commits": 3,
     "top_artist": "Los Piojos",
     "genero_musical": "Rock",
@@ -582,6 +665,7 @@
   },
   {
     "date": "2025-06-03",
+    "day_of_week": "martes",
     "commits": 9,
     "top_artist": "Mau P",
     "genero_musical": "Electronic",
@@ -589,6 +673,7 @@
   },
   {
     "date": "2025-06-04",
+    "day_of_week": "miércoles",
     "commits": 5,
     "top_artist": "J Balvin",
     "genero_musical": "Reggaeton",
@@ -596,6 +681,7 @@
   },
   {
     "date": "2025-06-05",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "Callejeros",
     "genero_musical": "Rock",
@@ -603,6 +689,7 @@
   },
   {
     "date": "2025-06-06",
+    "day_of_week": "viernes",
     "commits": 12,
     "top_artist": "Los Piojos",
     "genero_musical": "Rock",
@@ -610,6 +697,7 @@
   },
   {
     "date": "2025-06-07",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Los Piojos",
     "genero_musical": "Rock",
@@ -617,6 +705,7 @@
   },
   {
     "date": "2025-06-08",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -624,6 +713,7 @@
   },
   {
     "date": "2025-06-09",
+    "day_of_week": "lunes",
     "commits": 5,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -631,6 +721,7 @@
   },
   {
     "date": "2025-06-10",
+    "day_of_week": "martes",
     "commits": 13,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -638,6 +729,7 @@
   },
   {
     "date": "2025-06-11",
+    "day_of_week": "miércoles",
     "commits": 6,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -645,6 +737,7 @@
   },
   {
     "date": "2025-06-12",
+    "day_of_week": "jueves",
     "commits": 16,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -652,6 +745,7 @@
   },
   {
     "date": "2025-06-13",
+    "day_of_week": "viernes",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -659,6 +753,7 @@
   },
   {
     "date": "2025-06-14",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Aventura",
     "genero_musical": "Bachata",
@@ -666,6 +761,7 @@
   },
   {
     "date": "2025-06-15",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -673,6 +769,7 @@
   },
   {
     "date": "2025-06-16",
+    "day_of_week": "lunes",
     "commits": 6,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -680,6 +777,7 @@
   },
   {
     "date": "2025-06-17",
+    "day_of_week": "martes",
     "commits": 11,
     "top_artist": "Rauw Alejandro",
     "genero_musical": "Reggaeton",
@@ -687,6 +785,7 @@
   },
   {
     "date": "2025-06-18",
+    "day_of_week": "miércoles",
     "commits": 13,
     "top_artist": "Maty Deejay",
     "genero_musical": "Electronic",
@@ -694,6 +793,7 @@
   },
   {
     "date": "2025-06-19",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -701,6 +801,7 @@
   },
   {
     "date": "2025-06-20",
+    "day_of_week": "viernes",
     "commits": 8,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -708,6 +809,7 @@
   },
   {
     "date": "2025-06-21",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Alok",
     "genero_musical": "Electronic",
@@ -715,6 +817,7 @@
   },
   {
     "date": "2025-06-22",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Becky G",
     "genero_musical": "Reggaeton",
@@ -722,6 +825,7 @@
   },
   {
     "date": "2025-06-23",
+    "day_of_week": "lunes",
     "commits": 14,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -729,6 +833,7 @@
   },
   {
     "date": "2025-06-24",
+    "day_of_week": "martes",
     "commits": 11,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -736,6 +841,7 @@
   },
   {
     "date": "2025-06-25",
+    "day_of_week": "miércoles",
     "commits": 21,
     "top_artist": "Las Pastillas del Abuelo",
     "genero_musical": "Rock",
@@ -743,6 +849,7 @@
   },
   {
     "date": "2025-06-26",
+    "day_of_week": "jueves",
     "commits": 20,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -750,6 +857,7 @@
   },
   {
     "date": "2025-06-27",
+    "day_of_week": "viernes",
     "commits": 7,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -757,6 +865,7 @@
   },
   {
     "date": "2025-06-28",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -764,6 +873,7 @@
   },
   {
     "date": "2025-06-29",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -771,6 +881,7 @@
   },
   {
     "date": "2025-06-30",
+    "day_of_week": "lunes",
     "commits": 19,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -778,6 +889,7 @@
   },
   {
     "date": "2025-07-01",
+    "day_of_week": "martes",
     "commits": 4,
     "top_artist": "Justin Quiles",
     "genero_musical": "Reggaeton",
@@ -785,6 +897,7 @@
   },
   {
     "date": "2025-07-02",
+    "day_of_week": "miércoles",
     "commits": 18,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -792,6 +905,7 @@
   },
   {
     "date": "2025-07-03",
+    "day_of_week": "jueves",
     "commits": 3,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -799,6 +913,7 @@
   },
   {
     "date": "2025-07-04",
+    "day_of_week": "viernes",
     "commits": 10,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -806,6 +921,7 @@
   },
   {
     "date": "2025-07-05",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -813,6 +929,7 @@
   },
   {
     "date": "2025-07-06",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "J Abdiel",
     "genero_musical": "Reggaeton",
@@ -820,6 +937,7 @@
   },
   {
     "date": "2025-07-07",
+    "day_of_week": "lunes",
     "commits": 15,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -827,6 +945,7 @@
   },
   {
     "date": "2025-07-08",
+    "day_of_week": "martes",
     "commits": 10,
     "top_artist": "J Balvin",
     "genero_musical": "Reggaeton",
@@ -834,6 +953,7 @@
   },
   {
     "date": "2025-07-09",
+    "day_of_week": "miércoles",
     "commits": 3,
     "top_artist": "Ke Personajes",
     "genero_musical": "Cumbia",
@@ -841,6 +961,7 @@
   },
   {
     "date": "2025-07-10",
+    "day_of_week": "jueves",
     "commits": 8,
     "top_artist": "Big One",
     "genero_musical": "Trap",
@@ -848,6 +969,7 @@
   },
   {
     "date": "2025-07-11",
+    "day_of_week": "viernes",
     "commits": 6,
     "top_artist": "Max Carra",
     "genero_musical": "Electronic",
@@ -855,6 +977,7 @@
   },
   {
     "date": "2025-07-12",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -862,6 +985,7 @@
   },
   {
     "date": "2025-07-13",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Myke Towers",
     "genero_musical": "Reggaeton",
@@ -869,6 +993,7 @@
   },
   {
     "date": "2025-07-14",
+    "day_of_week": "lunes",
     "commits": 3,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -876,6 +1001,7 @@
   },
   {
     "date": "2025-07-15",
+    "day_of_week": "martes",
     "commits": 10,
     "top_artist": "Ke Personajes",
     "genero_musical": "Cumbia",
@@ -883,6 +1009,7 @@
   },
   {
     "date": "2025-07-16",
+    "day_of_week": "miércoles",
     "commits": 9,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -890,6 +1017,7 @@
   },
   {
     "date": "2025-07-17",
+    "day_of_week": "jueves",
     "commits": 6,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -897,6 +1025,7 @@
   },
   {
     "date": "2025-07-18",
+    "day_of_week": "viernes",
     "commits": 1,
     "top_artist": "Shakira",
     "genero_musical": "Pop",
@@ -904,6 +1033,7 @@
   },
   {
     "date": "2025-07-19",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -911,6 +1041,7 @@
   },
   {
     "date": "2025-07-20",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -918,6 +1049,7 @@
   },
   {
     "date": "2025-07-21",
+    "day_of_week": "lunes",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -925,6 +1057,7 @@
   },
   {
     "date": "2025-07-22",
+    "day_of_week": "martes",
     "commits": 0,
     "top_artist": "Wade",
     "genero_musical": "Electronic",
@@ -932,6 +1065,7 @@
   },
   {
     "date": "2025-07-23",
+    "day_of_week": "miércoles",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -939,6 +1073,7 @@
   },
   {
     "date": "2025-07-24",
+    "day_of_week": "jueves",
     "commits": 0,
     "top_artist": "Shakira",
     "genero_musical": "Pop",
@@ -946,6 +1081,7 @@
   },
   {
     "date": "2025-07-25",
+    "day_of_week": "viernes",
     "commits": 0,
     "top_artist": "Peter Base",
     "genero_musical": "Electronic",
@@ -953,6 +1089,7 @@
   },
   {
     "date": "2025-07-26",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -960,6 +1097,7 @@
   },
   {
     "date": "2025-07-27",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -967,6 +1105,7 @@
   },
   {
     "date": "2025-07-29",
+    "day_of_week": "martes",
     "commits": 7,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -974,6 +1113,7 @@
   },
   {
     "date": "2025-07-30",
+    "day_of_week": "miércoles",
     "commits": 6,
     "top_artist": "Marshmello",
     "genero_musical": "Electronic",
@@ -981,6 +1121,7 @@
   },
   {
     "date": "2025-07-31",
+    "day_of_week": "jueves",
     "commits": 3,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -988,6 +1129,7 @@
   },
   {
     "date": "2025-08-01",
+    "day_of_week": "viernes",
     "commits": 4,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -995,6 +1137,7 @@
   },
   {
     "date": "2025-08-02",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Ke Personajes",
     "genero_musical": "Cumbia",
@@ -1002,6 +1145,7 @@
   },
   {
     "date": "2025-08-03",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1009,6 +1153,7 @@
   },
   {
     "date": "2025-08-04",
+    "day_of_week": "lunes",
     "commits": 5,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1016,6 +1161,7 @@
   },
   {
     "date": "2025-08-05",
+    "day_of_week": "martes",
     "commits": 8,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1023,6 +1169,7 @@
   },
   {
     "date": "2025-08-06",
+    "day_of_week": "miércoles",
     "commits": 6,
     "top_artist": "Las Pastillas del Abuelo",
     "genero_musical": "Rock",
@@ -1030,6 +1177,7 @@
   },
   {
     "date": "2025-08-07",
+    "day_of_week": "jueves",
     "commits": 1,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1037,6 +1185,7 @@
   },
   {
     "date": "2025-08-08",
+    "day_of_week": "viernes",
     "commits": 1,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1044,6 +1193,7 @@
   },
   {
     "date": "2025-08-09",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1051,6 +1201,7 @@
   },
   {
     "date": "2025-08-10",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1058,6 +1209,7 @@
   },
   {
     "date": "2025-08-11",
+    "day_of_week": "lunes",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1065,6 +1217,7 @@
   },
   {
     "date": "2025-08-12",
+    "day_of_week": "martes",
     "commits": 9,
     "top_artist": "Duki",
     "genero_musical": "Trap",
@@ -1072,6 +1225,7 @@
   },
   {
     "date": "2025-08-13",
+    "day_of_week": "miércoles",
     "commits": 18,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1079,6 +1233,7 @@
   },
   {
     "date": "2025-08-14",
+    "day_of_week": "jueves",
     "commits": 3,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1086,6 +1241,7 @@
   },
   {
     "date": "2025-08-15",
+    "day_of_week": "viernes",
     "commits": 11,
     "top_artist": "Beéle",
     "genero_musical": "Latin Pop",
@@ -1093,6 +1249,7 @@
   },
   {
     "date": "2025-08-16",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Shakira",
     "genero_musical": "Pop",
@@ -1100,6 +1257,7 @@
   },
   {
     "date": "2025-08-17",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1107,6 +1265,7 @@
   },
   {
     "date": "2025-08-18",
+    "day_of_week": "lunes",
     "commits": 4,
     "top_artist": "Justin Bieber",
     "genero_musical": "Pop",
@@ -1114,6 +1273,7 @@
   },
   {
     "date": "2025-08-19",
+    "day_of_week": "martes",
     "commits": 8,
     "top_artist": "Babasonicos",
     "genero_musical": "Rock",
@@ -1121,6 +1281,7 @@
   },
   {
     "date": "2025-08-20",
+    "day_of_week": "miércoles",
     "commits": 8,
     "top_artist": "Duki",
     "genero_musical": "Trap",
@@ -1128,6 +1289,7 @@
   },
   {
     "date": "2025-08-21",
+    "day_of_week": "jueves",
     "commits": 2,
     "top_artist": "Myke Towers",
     "genero_musical": "Reggaeton",
@@ -1135,6 +1297,7 @@
   },
   {
     "date": "2025-08-22",
+    "day_of_week": "viernes",
     "commits": 2,
     "top_artist": "Las Pastillas del Abuelo",
     "genero_musical": "Rock",
@@ -1142,6 +1305,7 @@
   },
   {
     "date": "2025-08-23",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Justin Bieber",
     "genero_musical": "Pop",
@@ -1149,6 +1313,7 @@
   },
   {
     "date": "2025-08-24",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1156,6 +1321,7 @@
   },
   {
     "date": "2025-08-25",
+    "day_of_week": "lunes",
     "commits": 5,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -1163,6 +1329,7 @@
   },
   {
     "date": "2025-08-26",
+    "day_of_week": "martes",
     "commits": 6,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -1170,6 +1337,7 @@
   },
   {
     "date": "2025-08-27",
+    "day_of_week": "miércoles",
     "commits": 5,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -1177,6 +1345,7 @@
   },
   {
     "date": "2025-08-28",
+    "day_of_week": "jueves",
     "commits": 4,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1184,6 +1353,7 @@
   },
   {
     "date": "2025-08-29",
+    "day_of_week": "viernes",
     "commits": 11,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1191,6 +1361,7 @@
   },
   {
     "date": "2025-08-30",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Q' Lokura",
     "genero_musical": "Cumbia",
@@ -1198,6 +1369,7 @@
   },
   {
     "date": "2025-08-31",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1205,6 +1377,7 @@
   },
   {
     "date": "2025-09-01",
+    "day_of_week": "lunes",
     "commits": 7,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1212,6 +1385,7 @@
   },
   {
     "date": "2025-09-02",
+    "day_of_week": "martes",
     "commits": 6,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1219,6 +1393,7 @@
   },
   {
     "date": "2025-09-03",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -1226,6 +1401,7 @@
   },
   {
     "date": "2025-09-04",
+    "day_of_week": "jueves",
     "commits": 8,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -1233,6 +1409,7 @@
   },
   {
     "date": "2025-09-05",
+    "day_of_week": "viernes",
     "commits": 12,
     "top_artist": "John Summit",
     "genero_musical": "Electronic",
@@ -1240,6 +1417,7 @@
   },
   {
     "date": "2025-09-06",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1247,6 +1425,7 @@
   },
   {
     "date": "2025-09-07",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -1254,6 +1433,7 @@
   },
   {
     "date": "2025-09-08",
+    "day_of_week": "lunes",
     "commits": 2,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1261,6 +1441,7 @@
   },
   {
     "date": "2025-09-09",
+    "day_of_week": "martes",
     "commits": 1,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1268,6 +1449,7 @@
   },
   {
     "date": "2025-09-10",
+    "day_of_week": "miércoles",
     "commits": 2,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1275,6 +1457,7 @@
   },
   {
     "date": "2025-09-11",
+    "day_of_week": "jueves",
     "commits": 6,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1282,6 +1465,7 @@
   },
   {
     "date": "2025-09-12",
+    "day_of_week": "viernes",
     "commits": 0,
     "top_artist": "Maria Becerra",
     "genero_musical": "Pop",
@@ -1289,6 +1473,7 @@
   },
   {
     "date": "2025-09-13",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -1296,6 +1481,7 @@
   },
   {
     "date": "2025-09-14",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -1303,6 +1489,7 @@
   },
   {
     "date": "2025-09-15",
+    "day_of_week": "lunes",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1310,6 +1497,7 @@
   },
   {
     "date": "2025-09-16",
+    "day_of_week": "martes",
     "commits": 4,
     "top_artist": "Myke Towers",
     "genero_musical": "Reggaeton",
@@ -1317,6 +1505,7 @@
   },
   {
     "date": "2025-09-17",
+    "day_of_week": "miércoles",
     "commits": 5,
     "top_artist": "FISHER",
     "genero_musical": "Electronic",
@@ -1324,6 +1513,7 @@
   },
   {
     "date": "2025-09-18",
+    "day_of_week": "jueves",
     "commits": 3,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1331,6 +1521,7 @@
   },
   {
     "date": "2025-09-19",
+    "day_of_week": "viernes",
     "commits": 6,
     "top_artist": "Eli Brown",
     "genero_musical": "Electronic",
@@ -1338,6 +1529,7 @@
   },
   {
     "date": "2025-09-20",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Argy",
     "genero_musical": "Electronic",
@@ -1345,6 +1537,7 @@
   },
   {
     "date": "2025-09-21",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1352,6 +1545,7 @@
   },
   {
     "date": "2025-09-22",
+    "day_of_week": "lunes",
     "commits": 8,
     "top_artist": "Blessd",
     "genero_musical": "Reggaeton",
@@ -1359,6 +1553,7 @@
   },
   {
     "date": "2025-09-23",
+    "day_of_week": "martes",
     "commits": 5,
     "top_artist": "Anyma",
     "genero_musical": "Electronic",
@@ -1366,6 +1561,7 @@
   },
   {
     "date": "2025-09-24",
+    "day_of_week": "miércoles",
     "commits": 9,
     "top_artist": "Anyma",
     "genero_musical": "Electronic",
@@ -1373,6 +1569,7 @@
   },
   {
     "date": "2025-09-25",
+    "day_of_week": "jueves",
     "commits": 1,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1380,6 +1577,7 @@
   },
   {
     "date": "2025-09-26",
+    "day_of_week": "viernes",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1387,6 +1585,7 @@
   },
   {
     "date": "2025-09-27",
+    "day_of_week": "sábado",
     "commits": 24,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1394,6 +1593,7 @@
   },
   {
     "date": "2025-09-28",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Justin Bieber",
     "genero_musical": "Pop",
@@ -1401,6 +1601,7 @@
   },
   {
     "date": "2025-09-29",
+    "day_of_week": "lunes",
     "commits": 2,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1408,6 +1609,7 @@
   },
   {
     "date": "2025-09-30",
+    "day_of_week": "martes",
     "commits": 3,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1415,6 +1617,7 @@
   },
   {
     "date": "2025-10-01",
+    "day_of_week": "miércoles",
     "commits": 10,
     "top_artist": "Ke Personajes",
     "genero_musical": "Cumbia",
@@ -1422,6 +1625,7 @@
   },
   {
     "date": "2025-10-02",
+    "day_of_week": "jueves",
     "commits": 12,
     "top_artist": "Eladio Carrion",
     "genero_musical": "Trap",
@@ -1429,6 +1633,7 @@
   },
   {
     "date": "2025-10-03",
+    "day_of_week": "viernes",
     "commits": 4,
     "top_artist": "Eladio Carrion",
     "genero_musical": "Trap",
@@ -1436,6 +1641,7 @@
   },
   {
     "date": "2025-10-04",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1443,6 +1649,7 @@
   },
   {
     "date": "2025-10-05",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Omar Courtz",
     "genero_musical": "Reggaeton",
@@ -1450,6 +1657,7 @@
   },
   {
     "date": "2025-10-06",
+    "day_of_week": "lunes",
     "commits": 8,
     "top_artist": "Eladio Carrion",
     "genero_musical": "Trap",
@@ -1457,6 +1665,7 @@
   },
   {
     "date": "2025-10-07",
+    "day_of_week": "martes",
     "commits": 4,
     "top_artist": "Eladio Carrion",
     "genero_musical": "Trap",
@@ -1464,6 +1673,7 @@
   },
   {
     "date": "2025-10-08",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1471,6 +1681,7 @@
   },
   {
     "date": "2025-10-09",
+    "day_of_week": "jueves",
     "commits": 2,
     "top_artist": "Big One",
     "genero_musical": "Trap",
@@ -1478,6 +1689,7 @@
   },
   {
     "date": "2025-10-10",
+    "day_of_week": "viernes",
     "commits": 5,
     "top_artist": "Myke Towers",
     "genero_musical": "Reggaeton",
@@ -1485,6 +1697,7 @@
   },
   {
     "date": "2025-10-11",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Myke Towers",
     "genero_musical": "Reggaeton",
@@ -1492,6 +1705,7 @@
   },
   {
     "date": "2025-10-12",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1499,6 +1713,7 @@
   },
   {
     "date": "2025-10-13",
+    "day_of_week": "lunes",
     "commits": 10,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1506,6 +1721,7 @@
   },
   {
     "date": "2025-10-14",
+    "day_of_week": "martes",
     "commits": 6,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1513,6 +1729,7 @@
   },
   {
     "date": "2025-10-15",
+    "day_of_week": "miércoles",
     "commits": 9,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1520,6 +1737,7 @@
   },
   {
     "date": "2025-10-16",
+    "day_of_week": "jueves",
     "commits": 8,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1527,6 +1745,7 @@
   },
   {
     "date": "2025-10-17",
+    "day_of_week": "viernes",
     "commits": 2,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1534,6 +1753,7 @@
   },
   {
     "date": "2025-10-18",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1541,6 +1761,7 @@
   },
   {
     "date": "2025-10-19",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Beéle",
     "genero_musical": "Latin Pop",
@@ -1548,6 +1769,7 @@
   },
   {
     "date": "2025-10-20",
+    "day_of_week": "lunes",
     "commits": 1,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1555,6 +1777,7 @@
   },
   {
     "date": "2025-10-21",
+    "day_of_week": "martes",
     "commits": 3,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1562,6 +1785,7 @@
   },
   {
     "date": "2025-10-22",
+    "day_of_week": "miércoles",
     "commits": 2,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1569,6 +1793,7 @@
   },
   {
     "date": "2025-10-23",
+    "day_of_week": "jueves",
     "commits": 6,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1576,6 +1801,7 @@
   },
   {
     "date": "2025-10-24",
+    "day_of_week": "viernes",
     "commits": 5,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1583,6 +1809,7 @@
   },
   {
     "date": "2025-10-25",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1590,6 +1817,7 @@
   },
   {
     "date": "2025-10-26",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1597,6 +1825,7 @@
   },
   {
     "date": "2025-10-27",
+    "day_of_week": "lunes",
     "commits": 3,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1604,6 +1833,7 @@
   },
   {
     "date": "2025-10-28",
+    "day_of_week": "martes",
     "commits": 0,
     "top_artist": "Ke Personajes",
     "genero_musical": "Cumbia",
@@ -1611,6 +1841,7 @@
   },
   {
     "date": "2025-10-29",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "Ke Personajes",
     "genero_musical": "Cumbia",
@@ -1618,6 +1849,7 @@
   },
   {
     "date": "2025-10-30",
+    "day_of_week": "jueves",
     "commits": 15,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1625,6 +1857,7 @@
   },
   {
     "date": "2025-10-31",
+    "day_of_week": "viernes",
     "commits": 3,
     "top_artist": "Bizarrap",
     "genero_musical": "Trap",
@@ -1632,6 +1865,7 @@
   },
   {
     "date": "2025-11-01",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1639,6 +1873,7 @@
   },
   {
     "date": "2025-11-02",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Los Auténticos Decadentes",
     "genero_musical": "Rock",
@@ -1646,6 +1881,7 @@
   },
   {
     "date": "2025-11-03",
+    "day_of_week": "lunes",
     "commits": 3,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1653,6 +1889,7 @@
   },
   {
     "date": "2025-11-04",
+    "day_of_week": "martes",
     "commits": 5,
     "top_artist": "Airbag",
     "genero_musical": "Rock",
@@ -1660,6 +1897,7 @@
   },
   {
     "date": "2025-11-05",
+    "day_of_week": "miércoles",
     "commits": 14,
     "top_artist": "Rauw Alejandro",
     "genero_musical": "Reggaeton",
@@ -1667,6 +1905,7 @@
   },
   {
     "date": "2025-11-06",
+    "day_of_week": "jueves",
     "commits": 10,
     "top_artist": "Rauw Alejandro",
     "genero_musical": "Reggaeton",
@@ -1674,6 +1913,7 @@
   },
   {
     "date": "2025-11-07",
+    "day_of_week": "viernes",
     "commits": 4,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1681,6 +1921,7 @@
   },
   {
     "date": "2025-11-08",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1688,6 +1929,7 @@
   },
   {
     "date": "2025-11-09",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1695,6 +1937,7 @@
   },
   {
     "date": "2025-11-10",
+    "day_of_week": "lunes",
     "commits": 3,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1702,6 +1945,7 @@
   },
   {
     "date": "2025-11-11",
+    "day_of_week": "martes",
     "commits": 2,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1709,6 +1953,7 @@
   },
   {
     "date": "2025-11-12",
+    "day_of_week": "miércoles",
     "commits": 6,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1716,6 +1961,7 @@
   },
   {
     "date": "2025-11-13",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1723,6 +1969,7 @@
   },
   {
     "date": "2025-11-14",
+    "day_of_week": "viernes",
     "commits": 2,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1730,6 +1977,7 @@
   },
   {
     "date": "2025-11-15",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1737,6 +1985,7 @@
   },
   {
     "date": "2025-11-16",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Flor Alvarez",
     "genero_musical": "Cumbia",
@@ -1744,6 +1993,7 @@
   },
   {
     "date": "2025-11-17",
+    "day_of_week": "lunes",
     "commits": 9,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1751,6 +2001,7 @@
   },
   {
     "date": "2025-11-18",
+    "day_of_week": "martes",
     "commits": 3,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1758,6 +2009,7 @@
   },
   {
     "date": "2025-11-19",
+    "day_of_week": "miércoles",
     "commits": 8,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1765,6 +2017,7 @@
   },
   {
     "date": "2025-11-20",
+    "day_of_week": "jueves",
     "commits": 8,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1772,6 +2025,7 @@
   },
   {
     "date": "2025-11-21",
+    "day_of_week": "viernes",
     "commits": 12,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1779,6 +2033,7 @@
   },
   {
     "date": "2025-11-22",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1786,6 +2041,7 @@
   },
   {
     "date": "2025-11-23",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1793,6 +2049,7 @@
   },
   {
     "date": "2025-11-24",
+    "day_of_week": "lunes",
     "commits": 6,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1800,6 +2057,7 @@
   },
   {
     "date": "2025-11-25",
+    "day_of_week": "martes",
     "commits": 5,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1807,6 +2065,7 @@
   },
   {
     "date": "2025-11-26",
+    "day_of_week": "miércoles",
     "commits": 10,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1814,6 +2073,7 @@
   },
   {
     "date": "2025-11-27",
+    "day_of_week": "jueves",
     "commits": 6,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -1821,6 +2081,7 @@
   },
   {
     "date": "2025-11-28",
+    "day_of_week": "viernes",
     "commits": 1,
     "top_artist": "Hernan y La Champion's Liga",
     "genero_musical": "Cumbia",
@@ -1828,6 +2089,7 @@
   },
   {
     "date": "2025-11-29",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -1835,6 +2097,7 @@
   },
   {
     "date": "2025-11-30",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -1842,6 +2105,7 @@
   },
   {
     "date": "2025-12-01",
+    "day_of_week": "lunes",
     "commits": 5,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -1849,6 +2113,7 @@
   },
   {
     "date": "2025-12-02",
+    "day_of_week": "martes",
     "commits": 11,
     "top_artist": "Beéle",
     "genero_musical": "Latin Pop",
@@ -1856,6 +2121,7 @@
   },
   {
     "date": "2025-12-03",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "Nico Morano",
     "genero_musical": "Electronic",
@@ -1863,6 +2129,7 @@
   },
   {
     "date": "2025-12-04",
+    "day_of_week": "jueves",
     "commits": 2,
     "top_artist": "Maz",
     "genero_musical": "Electronic",
@@ -1870,6 +2137,7 @@
   },
   {
     "date": "2025-12-05",
+    "day_of_week": "viernes",
     "commits": 3,
     "top_artist": "KAROL G",
     "genero_musical": "Reggaeton",
@@ -1877,6 +2145,7 @@
   },
   {
     "date": "2025-12-06",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -1884,6 +2153,7 @@
   },
   {
     "date": "2025-12-07",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Danny Ocean",
     "genero_musical": "Reggaeton",
@@ -1891,6 +2161,7 @@
   },
   {
     "date": "2025-12-08",
+    "day_of_week": "lunes",
     "commits": 0,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -1898,6 +2169,7 @@
   },
   {
     "date": "2025-12-09",
+    "day_of_week": "martes",
     "commits": 6,
     "top_artist": "La Nueva Luna",
     "genero_musical": "Cumbia",
@@ -1905,6 +2177,7 @@
   },
   {
     "date": "2025-12-10",
+    "day_of_week": "miércoles",
     "commits": 4,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1912,6 +2185,7 @@
   },
   {
     "date": "2025-12-11",
+    "day_of_week": "jueves",
     "commits": 6,
     "top_artist": "Danny Tenaglia",
     "genero_musical": "Electronic",
@@ -1919,6 +2193,7 @@
   },
   {
     "date": "2025-12-12",
+    "day_of_week": "viernes",
     "commits": 13,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -1926,6 +2201,7 @@
   },
   {
     "date": "2025-12-13",
+    "day_of_week": "sábado",
     "commits": 1,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -1933,6 +2209,7 @@
   },
   {
     "date": "2025-12-14",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "ANOTR",
     "genero_musical": "Electronic",
@@ -1940,6 +2217,7 @@
   },
   {
     "date": "2025-12-15",
+    "day_of_week": "lunes",
     "commits": 10,
     "top_artist": "Rauw Alejandro",
     "genero_musical": "Reggaeton",
@@ -1947,6 +2225,7 @@
   },
   {
     "date": "2025-12-16",
+    "day_of_week": "martes",
     "commits": 7,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -1954,6 +2233,7 @@
   },
   {
     "date": "2025-12-17",
+    "day_of_week": "miércoles",
     "commits": 9,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -1961,6 +2241,7 @@
   },
   {
     "date": "2025-12-18",
+    "day_of_week": "jueves",
     "commits": 7,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -1968,6 +2249,7 @@
   },
   {
     "date": "2025-12-19",
+    "day_of_week": "viernes",
     "commits": 6,
     "top_artist": "Treekoo",
     "genero_musical": "Electronic",
@@ -1975,6 +2257,7 @@
   },
   {
     "date": "2025-12-20",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -1982,6 +2265,7 @@
   },
   {
     "date": "2025-12-21",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Maluma",
     "genero_musical": "Reggaeton",
@@ -1989,6 +2273,7 @@
   },
   {
     "date": "2025-12-22",
+    "day_of_week": "lunes",
     "commits": 6,
     "top_artist": "Intoxicados",
     "genero_musical": "Rock",
@@ -1996,6 +2281,7 @@
   },
   {
     "date": "2025-12-23",
+    "day_of_week": "martes",
     "commits": 9,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2003,6 +2289,7 @@
   },
   {
     "date": "2025-12-24",
+    "day_of_week": "miércoles",
     "commits": 0,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2010,6 +2297,7 @@
   },
   {
     "date": "2025-12-25",
+    "day_of_week": "jueves",
     "commits": 0,
     "top_artist": "Agapornis",
     "genero_musical": "Cumbia",
@@ -2017,6 +2305,7 @@
   },
   {
     "date": "2025-12-26",
+    "day_of_week": "viernes",
     "commits": 5,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -2024,6 +2313,7 @@
   },
   {
     "date": "2025-12-27",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Myke Towers",
     "genero_musical": "Reggaeton",
@@ -2031,6 +2321,7 @@
   },
   {
     "date": "2025-12-28",
+    "day_of_week": "domingo",
     "commits": 8,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2038,6 +2329,7 @@
   },
   {
     "date": "2025-12-29",
+    "day_of_week": "lunes",
     "commits": 7,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2045,6 +2337,7 @@
   },
   {
     "date": "2025-12-30",
+    "day_of_week": "martes",
     "commits": 15,
     "top_artist": "The La Planta",
     "genero_musical": "Cumbia",
@@ -2052,6 +2345,7 @@
   },
   {
     "date": "2025-12-31",
+    "day_of_week": "miércoles",
     "commits": 9,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2059,6 +2353,7 @@
   },
   {
     "date": "2026-01-01",
+    "day_of_week": "jueves",
     "commits": 0,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -2066,6 +2361,7 @@
   },
   {
     "date": "2026-01-02",
+    "day_of_week": "viernes",
     "commits": 5,
     "top_artist": "Justin Quiles",
     "genero_musical": "Reggaeton",
@@ -2073,6 +2369,7 @@
   },
   {
     "date": "2026-01-03",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Rauw Alejandro",
     "genero_musical": "Reggaeton",
@@ -2080,6 +2377,7 @@
   },
   {
     "date": "2026-01-04",
+    "day_of_week": "domingo",
     "commits": 8,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2087,6 +2385,7 @@
   },
   {
     "date": "2026-01-05",
+    "day_of_week": "lunes",
     "commits": 16,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2094,6 +2393,7 @@
   },
   {
     "date": "2026-01-06",
+    "day_of_week": "martes",
     "commits": 13,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -2101,6 +2401,7 @@
   },
   {
     "date": "2026-01-07",
+    "day_of_week": "miércoles",
     "commits": 8,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2108,6 +2409,7 @@
   },
   {
     "date": "2026-01-08",
+    "day_of_week": "jueves",
     "commits": 10,
     "top_artist": "J Balvin",
     "genero_musical": "Reggaeton",
@@ -2115,6 +2417,7 @@
   },
   {
     "date": "2026-01-09",
+    "day_of_week": "viernes",
     "commits": 11,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2122,6 +2425,7 @@
   },
   {
     "date": "2026-01-10",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2129,6 +2433,7 @@
   },
   {
     "date": "2026-01-11",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -2136,6 +2441,7 @@
   },
   {
     "date": "2026-01-12",
+    "day_of_week": "lunes",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2143,6 +2449,7 @@
   },
   {
     "date": "2026-01-13",
+    "day_of_week": "martes",
     "commits": 0,
     "top_artist": "FMK",
     "genero_musical": "Reggaeton",
@@ -2150,6 +2457,7 @@
   },
   {
     "date": "2026-01-14",
+    "day_of_week": "miércoles",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2157,6 +2465,7 @@
   },
   {
     "date": "2026-01-15",
+    "day_of_week": "jueves",
     "commits": 0,
     "top_artist": "FISHER",
     "genero_musical": "Electronic",
@@ -2164,6 +2473,7 @@
   },
   {
     "date": "2026-01-16",
+    "day_of_week": "viernes",
     "commits": 0,
     "top_artist": "Bruno Mars",
     "genero_musical": "Pop",
@@ -2171,6 +2481,7 @@
   },
   {
     "date": "2026-01-17",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2178,6 +2489,7 @@
   },
   {
     "date": "2026-01-18",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Justin Bieber",
     "genero_musical": "Pop",
@@ -2185,6 +2497,7 @@
   },
   {
     "date": "2026-01-19",
+    "day_of_week": "lunes",
     "commits": 1,
     "top_artist": "TINI",
     "genero_musical": "Pop",
@@ -2192,6 +2505,7 @@
   },
   {
     "date": "2026-01-20",
+    "day_of_week": "martes",
     "commits": 8,
     "top_artist": "Justin Bieber",
     "genero_musical": "Pop",
@@ -2199,6 +2513,7 @@
   },
   {
     "date": "2026-01-21",
+    "day_of_week": "miércoles",
     "commits": 4,
     "top_artist": "J Balvin",
     "genero_musical": "Reggaeton",
@@ -2206,6 +2521,7 @@
   },
   {
     "date": "2026-01-22",
+    "day_of_week": "jueves",
     "commits": 6,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2213,6 +2529,7 @@
   },
   {
     "date": "2026-01-23",
+    "day_of_week": "viernes",
     "commits": 5,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2220,6 +2537,7 @@
   },
   {
     "date": "2026-01-24",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "TINI",
     "genero_musical": "Pop",
@@ -2227,6 +2545,7 @@
   },
   {
     "date": "2026-01-25",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2234,6 +2553,7 @@
   },
   {
     "date": "2026-01-26",
+    "day_of_week": "lunes",
     "commits": 4,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2241,6 +2561,7 @@
   },
   {
     "date": "2026-01-27",
+    "day_of_week": "martes",
     "commits": 9,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -2248,6 +2569,7 @@
   },
   {
     "date": "2026-01-28",
+    "day_of_week": "miércoles",
     "commits": 4,
     "top_artist": "HUGEL",
     "genero_musical": "Electronic",
@@ -2255,6 +2577,7 @@
   },
   {
     "date": "2026-01-29",
+    "day_of_week": "jueves",
     "commits": 2,
     "top_artist": "TINI",
     "genero_musical": "Pop",
@@ -2262,6 +2585,7 @@
   },
   {
     "date": "2026-01-30",
+    "day_of_week": "viernes",
     "commits": 5,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -2269,6 +2593,7 @@
   },
   {
     "date": "2026-01-31",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -2276,6 +2601,7 @@
   },
   {
     "date": "2026-02-01",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2283,6 +2609,7 @@
   },
   {
     "date": "2026-02-02",
+    "day_of_week": "lunes",
     "commits": 6,
     "top_artist": "Daddy Yankee",
     "genero_musical": "Reggaeton",
@@ -2290,6 +2617,7 @@
   },
   {
     "date": "2026-02-03",
+    "day_of_week": "martes",
     "commits": 1,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2297,6 +2625,7 @@
   },
   {
     "date": "2026-02-04",
+    "day_of_week": "miércoles",
     "commits": 10,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2304,6 +2633,7 @@
   },
   {
     "date": "2026-02-05",
+    "day_of_week": "jueves",
     "commits": 4,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2311,6 +2641,7 @@
   },
   {
     "date": "2026-02-06",
+    "day_of_week": "viernes",
     "commits": 12,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2318,6 +2649,7 @@
   },
   {
     "date": "2026-02-07",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2325,6 +2657,7 @@
   },
   {
     "date": "2026-02-08",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2332,6 +2665,7 @@
   },
   {
     "date": "2026-02-09",
+    "day_of_week": "lunes",
     "commits": 10,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -2339,6 +2673,7 @@
   },
   {
     "date": "2026-02-10",
+    "day_of_week": "martes",
     "commits": 13,
     "top_artist": "Migrantes",
     "genero_musical": "Cumbia",
@@ -2346,6 +2681,7 @@
   },
   {
     "date": "2026-02-11",
+    "day_of_week": "miércoles",
     "commits": 5,
     "top_artist": "Luis Alberto Spinetta",
     "genero_musical": "Rock",
@@ -2353,6 +2689,7 @@
   },
   {
     "date": "2026-02-12",
+    "day_of_week": "jueves",
     "commits": 2,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2360,6 +2697,7 @@
   },
   {
     "date": "2026-02-13",
+    "day_of_week": "viernes",
     "commits": 3,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2367,6 +2705,7 @@
   },
   {
     "date": "2026-02-14",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2374,6 +2713,7 @@
   },
   {
     "date": "2026-02-15",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2381,6 +2721,7 @@
   },
   {
     "date": "2026-02-16",
+    "day_of_week": "lunes",
     "commits": 6,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2388,6 +2729,7 @@
   },
   {
     "date": "2026-02-17",
+    "day_of_week": "martes",
     "commits": 4,
     "top_artist": "Arcángel",
     "genero_musical": "Reggaeton",
@@ -2395,6 +2737,7 @@
   },
   {
     "date": "2026-02-18",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2402,6 +2745,7 @@
   },
   {
     "date": "2026-02-19",
+    "day_of_week": "jueves",
     "commits": 9,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2409,6 +2753,7 @@
   },
   {
     "date": "2026-02-20",
+    "day_of_week": "viernes",
     "commits": 1,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2416,6 +2761,7 @@
   },
   {
     "date": "2026-02-21",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2423,6 +2769,7 @@
   },
   {
     "date": "2026-02-22",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2430,6 +2777,7 @@
   },
   {
     "date": "2026-02-23",
+    "day_of_week": "lunes",
     "commits": 0,
     "top_artist": "Maria Becerra",
     "genero_musical": "Pop",
@@ -2437,6 +2785,7 @@
   },
   {
     "date": "2026-02-24",
+    "day_of_week": "martes",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -2444,6 +2793,7 @@
   },
   {
     "date": "2026-02-25",
+    "day_of_week": "miércoles",
     "commits": 0,
     "top_artist": "La T y La M",
     "genero_musical": "Cumbia",
@@ -2451,6 +2801,7 @@
   },
   {
     "date": "2026-02-26",
+    "day_of_week": "jueves",
     "commits": 0,
     "top_artist": "Cumbia rocha",
     "genero_musical": "Cumbia",
@@ -2458,6 +2809,7 @@
   },
   {
     "date": "2026-02-27",
+    "day_of_week": "viernes",
     "commits": 0,
     "top_artist": "Roze Oficial",
     "genero_musical": "Trap",
@@ -2465,6 +2817,7 @@
   },
   {
     "date": "2026-02-28",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Luis Alberto Spinetta",
     "genero_musical": "Rock",
@@ -2472,6 +2825,7 @@
   },
   {
     "date": "2026-03-01",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2479,6 +2833,7 @@
   },
   {
     "date": "2026-03-02",
+    "day_of_week": "lunes",
     "commits": 12,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2486,6 +2841,7 @@
   },
   {
     "date": "2026-03-03",
+    "day_of_week": "martes",
     "commits": 6,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2493,6 +2849,7 @@
   },
   {
     "date": "2026-03-04",
+    "day_of_week": "miércoles",
     "commits": 7,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2500,6 +2857,7 @@
   },
   {
     "date": "2026-03-05",
+    "day_of_week": "jueves",
     "commits": 8,
     "top_artist": "Jamiroquai",
     "genero_musical": "Funk",
@@ -2507,6 +2865,7 @@
   },
   {
     "date": "2026-03-06",
+    "day_of_week": "viernes",
     "commits": 12,
     "top_artist": "Lucca Saettone",
     "genero_musical": "Electronic",
@@ -2514,6 +2873,7 @@
   },
   {
     "date": "2026-03-07",
+    "day_of_week": "sábado",
     "commits": 8,
     "top_artist": "Swedish House Mafia",
     "genero_musical": "Electronic",
@@ -2521,6 +2881,7 @@
   },
   {
     "date": "2026-03-08",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "Hector Couto",
     "genero_musical": "Electronic",
@@ -2528,6 +2889,7 @@
   },
   {
     "date": "2026-03-09",
+    "day_of_week": "lunes",
     "commits": 12,
     "top_artist": "Babasonicos",
     "genero_musical": "Rock",
@@ -2535,6 +2897,7 @@
   },
   {
     "date": "2026-03-10",
+    "day_of_week": "martes",
     "commits": 17,
     "top_artist": "Bad Bunny",
     "genero_musical": "Trap",
@@ -2542,6 +2905,7 @@
   },
   {
     "date": "2026-03-11",
+    "day_of_week": "miércoles",
     "commits": 13,
     "top_artist": "RÜFÜS DU SOL",
     "genero_musical": "Electronic",
@@ -2549,6 +2913,7 @@
   },
   {
     "date": "2026-03-12",
+    "day_of_week": "jueves",
     "commits": 11,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -2556,6 +2921,7 @@
   },
   {
     "date": "2026-03-13",
+    "day_of_week": "viernes",
     "commits": 6,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
@@ -2563,6 +2929,7 @@
   },
   {
     "date": "2026-03-14",
+    "day_of_week": "sábado",
     "commits": 0,
     "top_artist": "Franky Rizardo",
     "genero_musical": "Electronic",
@@ -2570,6 +2937,7 @@
   },
   {
     "date": "2026-03-15",
+    "day_of_week": "domingo",
     "commits": 0,
     "top_artist": "PAWSA",
     "genero_musical": "Electronic",
