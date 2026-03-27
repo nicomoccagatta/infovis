@@ -3,4 +3,4 @@
 
 
 ## TP 1
-https://nicomoccagatta.github.io/infovis/TP1/Final%20data/
+https://nicomoccagatta.github.io/infovis/TP1
